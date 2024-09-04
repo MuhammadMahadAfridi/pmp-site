@@ -1,0 +1,635 @@
+/* For upto 1400px Screen Size */
+@media (min-width: 1400px) {
+    .container {
+        width: 1600px;
+    }
+
+    /* .hero_section .hero_content h4 {
+        font-size: 52px;
+    }
+
+    .hero_section .hero_content p {
+        font-size: 22px;
+    } */
+
+
+}
+
+
+
+
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    
+    /* Hero section */
+
+    /* .hero_section .col-lg-6 {
+        width: 58%;
+    } */
+
+
+    /*  Services Sections */
+
+    /* .services .services_container {
+        flex-direction: column;
+    } */
+
+
+    /* How - Section */
+
+    .how_section {
+        background: url('assets/imgs/how_bg.webp') no-repeat left / cover;
+    }
+
+
+}
+
+
+
+
+
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    /* Navbar */
+
+    nav .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+    nav .custom_buttons {
+        display: none;
+        /* flex-direction: column-reverse;
+        padding-bottom: 5px; */
+    }
+
+
+
+
+    /* Hero Sections */
+
+    /* .hero_section .hero_content .custom_btn {
+        font-size: 16px;
+    }
+    .navbar-nav .custom_buttons {
+        gap: 5px ;
+    }
+    .hero_section .hero_content h4 {
+        font-size: 38px;
+    }
+    .hero_section .hero_content p {
+        font-size: 18px;
+    }
+    .custom_buttons .custom_btn{
+        font-size: 14px;
+    } */
+
+    .hero_section .hero_content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        /* width: 520px; */
+    }
+    .hero_section .hero_content h4 {
+        font-size: 36px !important; 
+    }
+    .hero_section .hero_content p {
+        font-size: 20px !important;
+    }
+    .hero_section .hero_content .custom_btn {
+        font-size: 16px !important;
+    }
+
+
+
+
+    /* Get Started Sections */
+
+    .get_started_one {
+        flex-direction: column;
+    }
+    .get_one_content {
+        padding-top: 0;
+    }
+    .get_started_one .get_one_content h4 {
+        font-size: 18px;
+    }
+    .get_started_one .get_one_content p {
+        font-size: 16px;
+    }
+    .custom_btn {
+        font-size: 14px;
+    }
+    .get_started_one .get_one_icon img {
+        width: 140px;
+        height: 140px;
+    }
+
+
+    /* Footer */
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /* Header  */
+
+    .header .navbar-nav .nav-item {
+        width: 100%;
+    }
+    .header .navbar-nav .nav-item .nav-link {
+        width: 100%;
+        height: 60px;
+        /* text-align: center; */
+        /* justify-content: center; */
+    }
+
+    nav .custom_buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        justify-content: center;
+        height: 60px;
+        font-weight: 500;
+    }
+
+    
+
+    .navbar-toggler-icon {
+        filter: brightness(0) invert(1);
+    }
+    .navbar-toggler {
+        padding: 1.4rem 1.6rem;
+        background-color: #1b75bc !important;
+        position: relative;
+        right: -12px;
+        border-radius: 0;
+    }
+    
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        color: var(--secondary-color);
+        border-color: none;
+        box-shadow: none;
+    }
+    
+    nav .active {
+        background-color: transparent !important;
+    }
+
+
+
+
+
+
+
+    /* Hero Section */
+
+    .hero_section .hero_content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 520px;
+    }
+    .hero_section .hero_content h4 {
+        font-size: 36px;
+    }
+    .hero_section .hero_content p {
+        font-size: 20px;
+    }
+
+
+
+    /* Get Started Section */
+
+    
+
+
+
+    /* Testimonials  */
+
+    .swiper {
+        overflow: hidden;
+    }
+
+
+
+
+    /* Services */
+
+    .services_bottom .services_bottom_content_two{
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+    }
+
+
+
+
+
+
+    /* FAQS */
+
+    /* .faqs_main {
+        height: 500px !important;
+    } */
+
+    .faqs {
+        padding-bottom: 100px;
+        /* background: url('assets/imgs/faqs_bg4.webp'); */
+        /* background-size: cover; */
+        /* background-position: left center; */
+    }
+    
+    .accordion_custom {
+        margin-top: 120px;
+    }
+
+    .accordion-button {
+        font-size: 16px;
+        padding: 30px 30px 20px 40px;
+    }
+
+    .accordion-body {
+        font-size: 12.5px !important;
+        padding-left: 40px;
+    }
+
+    .faqs .accordion-item .custom_faq {
+        padding: 15px 0 35px 40px;
+    }
+
+    .faqs .accordion-item .more_faqs {
+        font-size: 12.8px !important;
+    }
+
+
+
+        
+}
+
+
+
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+    /* Hero Section */
+
+    .hero_section .hero_content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hero_section .hero_content h4 {
+        font-size: 18px;
+    }
+    .hero_section .hero_content p {
+        font-size: 12px;
+    }
+    .hero_section .hero_content .custom_btn {
+        font-size: 12px;
+    }
+    
+
+
+
+
+    /* Get Started */
+
+    .get_started_one {
+        text-align: center;
+    }
+
+
+    .get_started_one .get_one_icon img {
+        margin-left: 8px !important;
+    }
+
+
+
+
+
+
+    /* Low month Section */
+
+    .low_month .low_month_section .boxstyling{
+        transform: scale(0.8);
+    }
+
+
+
+
+
+    /* Testimonials  */
+
+
+
+
+
+    /* Services */
+
+    
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* Hero Sections */
+
+    /* .hero_section .col-sm-12 {
+        width: 100% !important;
+    } */
+
+
+    .hero_section .hero_content {
+        width: 190% !important;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hero_section .hero_content h4 {
+        font-size: 30px !important; 
+    }
+    .hero_section .hero_content p {
+        font-size: 18px !important;
+    }
+    .hero_section .hero_content .custom_btn {
+        font-size: 14px !important;
+    }
+    .hero_section .hero_content .custom_btn img{
+        height: 20px;
+    }
+
+
+
+    /* Get Started Sections */
+
+    .get_stated_center {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .get_stated_center h4 {
+        margin: 50px 0 !important;
+    }
+
+
+    .why_section .why_col {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+
+
+
+    /* Low month Section */
+
+    .low_month {
+        background: url(/assets/imgs/lowmonth_bg.webp) no-repeat left / cover;
+    }
+
+    .low_month .boxstyling_main {
+        margin-left: -70px;
+    }
+
+    .low_month .low_month_section .boxstyling{
+        transform: scale(0.7) !important;
+    }
+
+    .low_month .low_month_section .custom_btn {
+        font-size: 14px;
+    }
+
+    .low_month .low_month_section .low_month_para{
+        font-size: 18px;
+    }
+
+    .low_month .low_month_section h4 {
+        font-size: 26px;
+        padding-left: 150px;
+    }
+
+    .low_month a {
+        margin-left: 80px;
+    }
+
+    .low_month_para {
+        padding: 0;
+        padding-top: 20px;
+        margin-left: 65px;
+    }
+
+
+
+
+
+
+
+
+    /* Services Section */
+
+    .services_three_bg img {
+        width: 200px;
+    }
+
+    .services_column_one .services_icon img {
+        width: 60px;
+    }
+
+    .services_column_one .services_content h4 {
+        font-size: 18px;
+    }
+
+    .services_column_one .services_content p {
+        font-size: 14px;
+    }
+
+    .services_bottom .services_bottom_content img {
+        width: 80px !important;
+    }
+
+    .services_bottom_content_two p {
+        font-size: 18px;
+    }
+
+    .services_bottom_content_two .custom_btn {
+        font-size: 16px;
+    }
+
+    .services_bottom_content_two .custom_btn svg{
+        width: 40px !important;
+        height: 40px;
+    }
+
+
+    /* Signup Section */
+
+    .signup .signup_content_one h2 {
+        font-size: 40px;
+    }
+
+    .signup .signup_content_one p {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .signup_content_two {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .signup .signup_content_two .custom_btn{
+        font-size: 12px;
+    }
+
+    .signup .signup_content_two p{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+
+
+
+
+
+    /* HOW PARK MY PHONE WORKS */
+
+    .how_section .how_columns_price {
+        padding-left: 20px;
+    }
+
+    
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Other Resolutions */
+
+
+@media (max-width: 1250px) {
+    
+}
+
+
+@media (max-width: 400px) {
+
+    /* Get Started  */
+
+    .get_stated_center h4::before {
+        content: url(/assets/imgs/get_started_bg_mobile.webp);
+        top: -135px;
+        left: -135px;
+    }
+
+
+    /* Law Month Section */
+
+    .low_month .boxstyling_main {
+        margin-left: -70px;
+    }
+
+    .low_month .low_month_section .boxstyling{
+        transform: scale(0.62) !important;
+    }
+
+    .low_month .custom_btn {
+        margin-left: 50px;
+        font-size: 12px !important;
+    }
+
+    .low_month .low_month_section h4 {
+        padding-left: 140px;
+    }
+
+    .low_month_para {
+        padding: 0;
+        font-size: 18px !important;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+
+    
+
+    /* FAQS */
+
+
+    .faqs {
+        /* padding-bottom: 0px !important; */
+        background: url('assets/imgs/faqs_bg4.webp');
+        height: 930px !important;
+        padding: 10px 0 50px 0;
+        /* background-size: contain; */
+        /* background-repeat: no-repeat;
+        background-position: bottom left; */
+        /* background-position: left center; */
+    }
+
+    .faqs_main .faqs .sec_heading {
+        display: block;
+    }
+    
+
+    .accordion_custom {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .accordion-button {
+        font-size: 16px;
+        padding: 30px 30px 20px 40px;
+    }
+
+    .accordion-body {
+        font-size: 12.5px !important;
+    }
+
+    .faqs .accordion-item .custom_faq {
+        padding: 15px 0 35px 40px;
+    }
+
+    .faqs .accordion-item .more_faqs {
+        font-size: 12.8px !important;
+    }
+
+
+
+
+}
