@@ -288,17 +288,13 @@ main {
 } 
 
  .get_stated_center h4::before {
-    content: url('/assets/imgs/get_started_bg.webp');
+    content: url('./assets/imgs/get_started_bg.webp');
     position: absolute;
     top: -176px;
     left: -174px;
     overflow: hidden;
 }
 
-    
-.get_started .custom_btn {
-    
-}
 
 
 
