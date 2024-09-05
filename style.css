@@ -882,10 +882,10 @@ main {
 
 .services_bottom_content_two .custom_btn {
     font-size: 24px;
-    padding: 14px 50px;
+    padding: 14px 60px;
     gap: 15px;
     box-shadow: 0px 6px 16px 0px rgba(10, 9, 10, 0.34);
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 .services_bottom .services_bottom_content_two .custom_btn svg {
@@ -967,6 +967,8 @@ main {
 .how_columns_price .custom_btn {
     box-shadow: 0px 6px 16px 0px rgba(10, 9, 10, 0.34);
     margin-bottom: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 
@@ -1266,7 +1268,7 @@ main {
 .signup_content_two .custom_btn {
     font-size: 18px;
     box-shadow: 0px 8px 18px 0px rgba(10, 9, 10, 0.27);
-
+    padding: 16px 40px;
 }
 
 

@@ -549,7 +549,12 @@
 
 
 
+    /* FAQs  */
 
+    .accordion-body {
+        /* padding: 10px 50px 20px 50px; */
+        padding-bottom: 20px;
+    }
 
 
 
@@ -635,7 +640,7 @@
     }
 
     .low_month .custom_btn {
-        margin-left: 50px;
+        margin-left: 100px;
         font-size: 12px !important;
     }
 
@@ -647,7 +652,6 @@
         padding: 0;
         font-size: 18px !important;
         padding-top: 20px;
-        margin-left: 30px;
     }
 
     
@@ -660,10 +664,6 @@
         background: url('assets/imgs/faqs_bg4.webp');
         height: 930px !important;
         padding: 10px 0 50px 0;
-        /* background-size: contain; */
-        /* background-repeat: no-repeat;
-        background-position: bottom left; */
-        /* background-position: left center; */
     }
 
     .faqs_main .faqs .sec_heading {
@@ -711,6 +711,57 @@
         padding-bottom: 30px;
     }
 
+
+
+}
+
+
+
+@media (max-width: 370px) { 
+
+   
+
+}
+
+
+
+
+
+@media (max-width: 340px) { 
+
+    .low_month .boxstyling_main {
+        margin-left: -90px;
+    }
+    
+    .low_month .custom_btn {
+        margin-left: 75px;
+    }
+
+    .low_month_para {
+        margin-left: 45px;
+    }
+
+
+    /* Testimonials */
+
+    .testimonials .sec_heading h3 {
+        width: auto;
+        font-size: 30px;
+    }
+
+
+}
+
+
+
+@media (max-width: 375px) { 
+
+    /* Testimonials */
+
+    .testimonials .sec_heading h3 {
+        width: auto;
+        font-size: 30px;
+    }
 
 
 }
