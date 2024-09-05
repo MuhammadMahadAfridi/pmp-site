@@ -1,18 +1,63 @@
-/* For upto 1400px Screen Size */
-@media (min-width: 1400px) {
-    .container {
-        width: 1600px;
+@media (min-width: 1600px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1650px;
     }
 
-    /* .hero_section .hero_content h4 {
+
+    /* Hero Section */
+
+    .hero_section {
+        padding: 140px 0 240px 0;
+    }
+    
+    .hero_content {
+        padding-right: 200px;
+    }
+    
+    .hero_section .hero_content h4 {
         font-size: 52px;
     }
 
-    .hero_section .hero_content p {
-        font-size: 22px;
-    } */
 
 
+    /* Low Month */
+
+    .low_month {
+        padding: 190px 0 160px 0;
+    }
+
+
+    /* Testimonials  */
+
+    .testimonials_comments p {
+        font-size: 18px;
+    }
+
+    .testimonials_profile {
+        padding: 35px 100px 35px 65px;
+    }
+
+    .testimonials_stars .fa-solid {
+        color: var(--secondary-color);
+        font-size: 18px;
+    }
+
+
+    /* Services */
+
+    .services_bottom_content h1 {
+        width: 70%;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 1399.5px) {
+    
 }
 
 
@@ -34,6 +79,10 @@
     /* .services .services_container {
         flex-direction: column;
     } */
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+    }
 
 
     /* How - Section */
