@@ -217,7 +217,7 @@ main {
 
 .get_started {
     background-color: #eef4f8;
-    padding: 50px 0 80px 0;
+    padding: 60px 0 90px 0;
 }
 
 .sec_heading {
@@ -359,6 +359,12 @@ main {
 .get_started_navpane .navpane_input{
     line-height: 40px;
     border: 2px solid #dddbdb;
+    border-radius: 8px;
+}
+
+.get_started_navpane .navpane_input::placeholder {
+    font-size: 18px;
+    color: #ababab;
 }
 
 .get_started_navpane .navpane_input:focus {
@@ -374,6 +380,7 @@ main {
     border-radius: 8px;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ababab' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
     color: #ababab;
+    font-size: 18px;
 }
 
 .get_started_navpane .navpane_select:focus{
@@ -388,8 +395,6 @@ main {
 .get_started_navpane .custom_btn {
     border-color: transparent;
 }
-
-
 
 .get_started_navmain .nav-tabs {
     border: 0;
@@ -527,7 +532,8 @@ main {
 
 .why_section {
     background-color: var(--primary-color);
-    padding: 50px;
+    background-color: var(--primary-color);
+    padding: 60px 0 90px 0;
 }
 
 .why_section .sec_heading {
