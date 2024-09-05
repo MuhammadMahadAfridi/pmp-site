@@ -621,7 +621,7 @@
 
 
 
-    
+
 
 
     <!-- Placeholder for the footer -->
@@ -634,18 +634,44 @@
 
 
 
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Swiper Slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Header OnScroll -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Intl -->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.3.6/build/js/intlTelInput.min.js"></script>
 
 
 
 
 
-
-
+    <!-- Header OnScroll Code  -->
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 50) {
+                    $('#header_scroll').addClass('scroll_bg');
+                    console.log('class added');
+                } else {
+                    $('#header_scroll').removeClass('scroll_bg');
+                    console.log('class removed');
+                }
+            });
+        });
+    </script>
 
 
 
     <!-- Get Started 2nd Section Switch -->
-
     <script>
         var hndl = document.getElementById("h");
         var tab1 = document.getElementById("tab-one");
@@ -672,15 +698,14 @@
         };   
     </script>
 
-    <!-- AOS Animated -->
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- AOS Animated -->
     <script>
       AOS.init();
     </script>
 
+
     <!-- TelInput -->
-    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.3.6/build/js/intlTelInput.min.js"></script>
     <script>
     const input = document.querySelector("#phone");
     window.intlTelInput(input, {
@@ -689,9 +714,7 @@
     </script>
 
 
-    <!-- Swiper Slider -->
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".testimonialSwiper", {
@@ -713,8 +736,6 @@
 
 
     <!-- Pages Loader -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/24.3.6/js/intlTelInput.min.js" integrity="sha512-smdlasRfpQ6BI8I22OuqeX0Y6tp/BrSRBe5897CLVor/24derg7aVk9MIqTGiyPgw6RZy8ewle5s+xKaKbdU1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
         // Function to load external HTML and append it to the target element
@@ -742,10 +763,6 @@
 
 
 
-    <!-- Bootstrap JS -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
 </body>

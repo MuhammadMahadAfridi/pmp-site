@@ -20,13 +20,24 @@ html, body {
 
 
 
+#header_scroll {
+    width: 100%;
+    z-index: 99;
+}
 
+.scroll_bg{
+    background-color: white !important;
+}
 
 
 
 
 
 /* Header */
+
+nav {
+    background-color: white;
+}
 
 .navbar .navbar-brand img{
     height: 32px;
@@ -126,10 +137,6 @@ nav .active {
 
 
 
-
-
-
-
 /* Header End */
 
 
@@ -144,8 +151,11 @@ main {
     background-repeat: no-repeat;
 }
 
+
+
 .hero_section {
     padding: 100px 0 100px 0;
+    margin-top: 100px;
 }
 
 .hero_content {
