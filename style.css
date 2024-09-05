@@ -585,15 +585,14 @@ main {
 
 .low_month a{
     margin-left: 120px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px 36px;
     font-size: 24px;
     box-shadow: 0px 6px 16px 0px rgba(10, 9, 10, 0.18);
 }
 
 .low_month_para {
-    padding-left: 117px;
-    padding-top: 10px;
+    padding-left: 128px;
+    padding-top: 16px;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 24px;
