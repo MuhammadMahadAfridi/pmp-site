@@ -272,7 +272,7 @@ main {
 
 .get_start_center_bg {
     /* position: relative; */
-    background: url('/assets/imgs/get_started_bg.webp') no-repeat left / cover;
+    background: url('./assets/imgs/get_started_bg.webp') no-repeat left / cover;
 }
 
 
