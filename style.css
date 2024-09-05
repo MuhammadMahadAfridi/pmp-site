@@ -75,9 +75,11 @@ nav .active {
     align-items: center;
     gap: 8px;
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 650;
     transition: 0.6s ease-in;
+    font-family: var(--opensans-font);
 }
+
 
 
 .hero_section .hero_content .custom_btn svg {
@@ -96,7 +98,7 @@ nav .active {
     border: 2px solid #1a75bb;
     background-color: white;
     color: #1a75bb;
-    font-weight: 700;
+    font-weight: 650;
 }
 
 .login_btn i {
