@@ -133,7 +133,7 @@ nav .active {
 /* Main hero Section */
 
 main {
-    background-image: url('/assets/imgs/herobanner.png');
+    background-image: url('./assets/imgs/herobanner.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -568,7 +568,7 @@ main {
 
 
 .low_month {
-    background: url('/assets/imgs/lowmonth_bg.webp') no-repeat center / cover;
+    background: url('./assets/imgs/lowmonth_bg.webp') no-repeat center / cover;
     padding: 90px 0 90px 0;
 }
 
@@ -702,7 +702,7 @@ main {
 /* Testimonials */
 
 .testimonials {
-    background: url('/assets/imgs/testimonials_bg.webp') no-repeat center / cover;
+    background: url('./assets/imgs/testimonials_bg.webp') no-repeat center / cover;
     padding: 40px 0 40px 0;
 }
 
@@ -867,7 +867,7 @@ main {
 
       
     .swiper-button-next{
-        background-image: url('/assets/imgs/next_icon.webp') !important;
+        background-image: url('./assets/imgs/next_icon.webp') !important;
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center;
@@ -875,7 +875,7 @@ main {
         margin-top: 11px;
     }
     .swiper-button-prev{
-        background-image: url('/assets/imgs/prev_icon.webp') !important;
+        background-image: url('./assets/imgs/prev_icon.webp') !important;
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center;
@@ -1000,7 +1000,7 @@ main {
 /* How Section */
 
 .how_section {
-    background: url('assets/imgs/how_bg.webp') no-repeat right / cover;
+    background: url('./assets/imgs/how_bg.webp') no-repeat right / cover;
     padding: 70px 0 70px 0;
 }
 
@@ -1072,7 +1072,7 @@ main {
 
 .faqs {
     /* background: url('assets/imgs/faqs_bg2.webp') no-repeat left / cover; */
-    background: url('assets/imgs/faqs_bg2.webp');
+    background: url('./assets/imgs/faqs_bg2.webp');
     background-repeat: no-repeat;
     position: relative;
     padding: 80px 0 140px 0;
@@ -1376,7 +1376,7 @@ main {
 
 
 footer .footer_bg {
-    background: url('/assets/imgs/footer_bg.webp') no-repeat center / cover;
+    background: url('./assets/imgs/footer_bg.webp') no-repeat center / cover;
     padding: 70px 0 70px 0;
     overflow: hidden;
 }
@@ -1389,7 +1389,7 @@ footer .footer_bg {
 
 footer .footer_logo h4::after {
     position: absolute;
-    content: url('/assets/imgs/onlylogo.png');
+    content: url('./assets/imgs/onlylogo.png');
     top: -24px;
     left: -80px;
     transform: scale(0.8);
@@ -1397,7 +1397,7 @@ footer .footer_logo h4::after {
 
 footer .footer_logo h4::before {
     position: absolute;
-    content: url('/assets/imgs/footer_bg_de.webp');
+    content: url('./assets/imgs/footer_bg_de.webp');
     left: -296px;
     top: -240px;
     transform: scale(0.8);
