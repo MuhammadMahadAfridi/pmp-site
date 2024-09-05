@@ -962,7 +962,7 @@ main {
 }
 
 .services_bottom_content h1 {
-    width: 65%;
+    font-size: 48px;
     font-weight: 700;
     text-transform: uppercase;
     font-family: var(--ibmplex-font);
