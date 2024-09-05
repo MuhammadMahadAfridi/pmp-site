@@ -218,7 +218,10 @@
 
     /* Get Started Section */
 
-    
+    .get_started_one .get_one_icon img {
+        width: 120px;
+        height: 120px;
+    }
 
 
 
@@ -639,6 +642,23 @@
         font-size: 12.8px !important;
     }
 
+    .faqs .sec_heading h3 {
+        width: 200px;
+        text-align: left;
+        font-size: 48px;
+        font-weight: 700;
+        padding: 0;
+        padding-top: 30px;
+        margin: 0;
+    }
+
+
+
+
+    /* Signup  */
+    .signup {
+        padding-bottom: 30px;
+    }
 
 
 
