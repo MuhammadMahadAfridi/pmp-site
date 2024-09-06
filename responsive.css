@@ -58,14 +58,6 @@
 
 
 
-@media (max-width: 1399.5px) {
-    
-}
-
-
-
-
-
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
     
@@ -195,7 +187,9 @@
 
 
     /* Footer */
-    
+    footer .footer_last_sec {
+        padding-left: 0px !important;
+    }
 
 }
 
@@ -425,6 +419,11 @@
 
 
 
+    /* Footer */
+
+    footer .footer_last_sec {
+        padding-left: 60px;
+    }
 
 }
 
