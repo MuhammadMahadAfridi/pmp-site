@@ -1311,7 +1311,7 @@ footer .footer_bg {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-top: -18px;
+    margin-top: -20px;
 }
 
 /* footer .footer_logo h4::after {
