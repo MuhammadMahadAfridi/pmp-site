@@ -1092,7 +1092,7 @@ main {
 
 
 .accordion-button {
-    padding: 45px 30px 40px 55px;
+    padding: 45px 30px 40px 50px;
     font-weight: 700;
     font-size: 18px;
     font-family: var(--ibmplex-font);
