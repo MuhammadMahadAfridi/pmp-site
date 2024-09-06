@@ -183,7 +183,9 @@
     /* Services */
 
 
-
+    .services .services_img_container .services_three_bg {
+        display: none;
+    }
 
 
 
@@ -316,6 +318,8 @@
 
 
 
+
+
     /* FAQS */
 
 
@@ -411,8 +415,13 @@
     /* Services */
 
     
+    .services .services_img_container .services_three_bg {
+        display: block;
+    }
 
-
+    .services_three_bg img {
+        width: 200px;
+    }
 
 
 
@@ -522,9 +531,7 @@
 
     /* Services Section */
 
-    .services_three_bg img {
-        width: 200px;
-    }
+    
 
     .services_column_one .services_icon img {
         width: 60px;
