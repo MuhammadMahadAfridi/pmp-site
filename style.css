@@ -356,7 +356,7 @@ main {
     border: 3.5px solid #c6d5de;
     border-radius: 18px; 
     position: relative;
-    z-index: 99;
+    z-index: 2;
 } 
 .box_line_height {
     content: '';

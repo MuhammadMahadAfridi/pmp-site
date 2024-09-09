@@ -128,9 +128,6 @@
     .get_started_one .get_one_content p {
         font-size: 16px;
     }
-    .custom_btn {
-        font-size: 14px;
-    }
     .get_started_one .get_one_icon img {
         width: 140px;
         height: 140px;
@@ -607,11 +604,10 @@
 
     /* Get Started  */
 
-    .get_stated_center .box_line::before {
-        content: url(/assets/imgs/get_started_bg_mobile.webp);
-        top: -135px;
-        left: -135px;
+    .box_line::before {
+        content: url('./assets/imgs/get_started_bg.webp');
     }
+    
 
 
     /* Law Month Section */
