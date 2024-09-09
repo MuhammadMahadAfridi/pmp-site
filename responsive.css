@@ -436,8 +436,8 @@
     }
 
 
-    .get_stated_center h4 {
-        margin: 50px 0 !important;
+    .get_stated_center .box_line {
+        margin: 70px 0 !important;
     }
 
 
@@ -607,7 +607,7 @@
 
     /* Get Started  */
 
-    .get_stated_center h4::before {
+    .get_stated_center .box_line::before {
         content: url(/assets/imgs/get_started_bg_mobile.webp);
         top: -135px;
         left: -135px;
