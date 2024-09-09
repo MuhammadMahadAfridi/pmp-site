@@ -293,12 +293,14 @@ main {
 }
 
 .get_started_one .get_one_content .get_one_content_p {
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .get_started_one .get_one_content p{
     font-size: 18px;
-    line-height: 0.5;
+    margin: 0;
+    line-height: 1.4;
     font-weight: 500;
     font-family: var(--opensans-font);
     text-transform: none;
