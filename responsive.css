@@ -604,9 +604,9 @@
 
     /* Get Started  */
 
-    .box_line::before {
+    /* .box_line::before {
         content: url('./assets/imgs/get_started_bg.webp');
-    }
+    } */
     
 
 
