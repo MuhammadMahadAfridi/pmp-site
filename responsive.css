@@ -1,13 +1,12 @@
 
 @media (min-width: 1600px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1650px;
+    .low_month {
+        padding: 170px 0 140px 0;
     }
 
 
-    /* Hero Section */
 
-    .hero_section {
+    /* .hero_section {
         padding: 140px 0 240px 0;
     }
     
@@ -21,14 +20,14 @@
 
 
 
-    /* Low Month */
+
 
     .low_month {
         padding: 190px 0 160px 0;
     }
 
 
-    /* Testimonials  */
+
 
     .testimonials_comments p {
         font-size: 18px;
@@ -44,40 +43,25 @@
     }
 
 
-    /* Services */
+
 
     .services_bottom_content h1 {
         width: 70%;
-    }
+    } */
 
 
 
 }
-
+ 
 
 
 
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-    
-    /* Hero section */
-
-    /* .hero_section .col-lg-6 {
-        width: 58%;
-    } */
-
-
-    /*  Services Sections */
-
-    /* .services .services_container {
-        flex-direction: column;
-    } */
-
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1320px;
+        max-width: 1355px;
     }
-
 
     /* How - Section */
 
@@ -85,12 +69,7 @@
         background: url('assets/imgs/how_bg.webp') no-repeat left / cover;
     }
 
-
 }
-
-
-
-
 
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
@@ -108,26 +87,6 @@
         padding-bottom: 5px; */
     }
 
-
-
-
-    /* Hero Sections */
-
-    /* .hero_section .hero_content .custom_btn {
-        font-size: 16px;
-    }
-    .navbar-nav .custom_buttons {
-        gap: 5px ;
-    }
-    .hero_section .hero_content h4 {
-        font-size: 38px;
-    }
-    .hero_section .hero_content p {
-        font-size: 18px;
-    }
-    .custom_buttons .custom_btn{
-        font-size: 14px;
-    } */
 
     .hero_section .hero_content {
         padding-top: 50px;
@@ -178,12 +137,6 @@
     .services .services_img_container .services_three_bg {
         display: none;
     }
-
-
-
-
-
-
 
 
     /* Footer */
