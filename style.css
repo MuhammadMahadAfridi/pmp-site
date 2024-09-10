@@ -435,6 +435,7 @@ main {
 .get_one_content .tel_input_custom::placeholder { 
     color: #ababab;
     font-size: 24px;
+    font-family: var(--opensans-font);
 }
 
 
@@ -453,6 +454,7 @@ main {
 .get_started_navpane .navpane_input::placeholder {
     font-size: 18px;
     color: #ababab;
+    font-family: var(--opensans-font);
 }
 
 .get_started_navpane .navpane_input:focus {
