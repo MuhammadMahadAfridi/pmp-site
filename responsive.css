@@ -1,54 +1,26 @@
 
 @media (min-width: 1600px) {
+
+    /* Hero Section */
+
+    .hero_section {
+        padding: 120px 0 170px 0;
+    }
+
+
+    /* Low Month */
+
     .low_month {
         padding: 170px 0 140px 0;
     }
 
 
+    /* Services bottom */
 
-    /* .hero_section {
-        padding: 140px 0 240px 0;
+    .services_alignment {
+        justify-content: end !important;
     }
-    
-    .hero_content {
-        padding-right: 200px;
-    }
-    
-    .hero_section .hero_content h4 {
-        font-size: 52px;
-    }
-
-
-
-
-
-    .low_month {
-        padding: 190px 0 160px 0;
-    }
-
-
-
-
-    .testimonials_comments p {
-        font-size: 18px;
-    }
-
-    .testimonials_profile {
-        padding: 35px 100px 35px 65px;
-    }
-
-    .testimonials_stars .fa-solid {
-        color: var(--secondary-color);
-        font-size: 18px;
-    }
-
-
-
-
-    .services_bottom_content h1 {
-        width: 70%;
-    } */
-
+  
 
 
 }
