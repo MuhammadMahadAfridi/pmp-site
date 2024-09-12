@@ -19,7 +19,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                         <li class="nav-item me-lg-1 me-0">
-                          <a class="nav-link active" aria-current="page" href="">Home</a>
+                          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item me-lg-1 me-0">
                           <a class="nav-link" href="">Services</a>
@@ -56,7 +56,17 @@
 
 
     <script>
+        const navItem = document.querySelectorAll('.nav-link');
         
+        for(let i=0; i<navItem.length; i++) {
+            navItem[i].addEventListener('click', function() {
+                if(!(this.classList.contains('active'))) {
+                    document.querySelector('.active').classList.remove('active');
+        
+                    this.classList.add('active');
+                }
+            });
+        }
     </script>
   </body>
 </html>
