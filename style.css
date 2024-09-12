@@ -1290,6 +1290,10 @@ main {
 .testimonials_customer_section {
     padding: 50px 0 0 0;
 }
+.testimonials_customer_section .sec_heading h3 {
+    color: #3e3e3e;
+}
+
 .testimonials_customer_section .sec_heading p{ 
     text-transform: none;
     font-size: 16px;
