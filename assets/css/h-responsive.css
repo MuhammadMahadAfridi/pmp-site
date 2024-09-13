@@ -1,0 +1,543 @@
+@media(max-width:1920px) {
+ .call_forward_right_side {
+  padding-right: 0px;
+ }
+}
+
+@media(max-width:1600px) {
+
+ .call_forward_right_side {
+  padding-right: 100px;
+ }
+}
+
+@media(max-width:1400px) {
+
+ /* Call forward section css */
+
+ .call_forward_right_side {
+  padding-right: 0px;
+ }
+
+ .customer_right_blue_side {
+  padding: 50px 0px;
+ }
+
+ .swipper_custom_padding {
+  padding: 30px 30px 60px 30px;
+ }
+
+
+ /* Service section css */
+
+ .service_box {
+  padding: 20px 10px;
+ }
+
+ .serv_box_title {
+  font-size: 14px;
+ }
+
+ .service_left_content {
+  margin: 0px !important;
+ }
+
+ .customer_left_call {
+  font-size: 26px;
+ }
+
+ .customer_left_btn {
+  padding: 15px 25px;
+ }
+
+}
+
+@media(max-width:1320px) {
+ .call_forward_content_inner_cont {
+  padding: 100px 90px 100px 0px;
+ }
+
+ .call_forward_content_inner_cont h2 {
+  font-size: 42px;
+ }
+}
+
+@media(max-width:1200px) {
+
+ /* forward section css */
+
+ .call_forward_handphone_img img {
+  display: none;
+ }
+
+ .call_forward_wrapper {
+  overflow: hidden;
+ }
+
+ .call_forward_content_inner_cont {
+  padding: 100px 80px 100px 30px;
+ }
+
+ .call_forward_content_inner_cont h2 {
+  font-size: 36px;
+ }
+
+ /* package section css */
+
+ .package_body_title h6 {
+  padding-right: 0px;
+ }
+
+ .package_wrapper_title {
+  font-size: 36px;
+ }
+
+ .package_title {
+  font-size: 70px;
+ }
+
+ .custom_font {
+  font-size: 16px;
+ }
+
+ .package_yellow_img img {
+  width: 125px;
+  height: 125px;
+ }
+
+ .package_btn_wrapper {
+  padding: 10px 40px;
+ }
+
+ .package_btn_wrapper p {
+  font-size: 14px;
+ }
+
+ .plans_btn {
+  padding: 12px 50px;
+ }
+
+ /* faqs section css  */
+
+ .faqs_btn {
+  padding: 10px 30px;
+ }
+
+ .faqs_wrapper h2 {
+  font-size: 36px;
+ }
+
+ /* customer section css start from here */
+
+ .customer_left_title {
+  font-size: 32px;
+ }
+
+ .customer_left_desc {
+  font-size: 20px;
+ }
+
+ .customer_left_orange_side:before {
+  width: 170px;
+ }
+
+ .customer_left_btn {
+  font-size: 16px;
+ }
+
+ .customer_left_or {
+  font-size: 16px;
+ }
+
+ .customer_left_btn {
+  padding: 15px 24px;
+  font-size: 16px;
+ }
+
+ .customer_left_call {
+  font-size: 20px;
+ }
+
+ .customer_right_box {
+  display: block !important;
+  padding: 25px 25px 25px 25px;
+ }
+
+ .customer_right_title {
+  font-size: 32px;
+ }
+
+ .customer_right_inner_box_content {
+  text-align: center;
+ }
+
+ .customer_blue_img {
+  text-align: center;
+  margin-bottom: 20px;
+ }
+
+ .blue_box_desc {
+  font-size: 16px;
+ }
+
+ .customer_blue_img img {
+  width: 100px;
+ }
+
+ /* service section css */
+
+ .service_wrapper h2 {
+  font-size: 36px;
+ }
+
+ .serv_box_title {
+  font-size: 12px;
+ }
+}
+
+@media(max-width:991px) {
+
+ /* banner section css start from here */
+
+ .forward_main_wrapper {
+  background-image: none;
+  background-color: #53adcf;
+  padding: 50px 0px;
+ }
+
+ .forward_ban_title {
+  max-width: unset;
+ }
+
+ /* call forward css */
+
+ .call_forward_wrapper {
+  margin: 0px;
+ }
+
+ .call_forward_wrapper .container-fluid {
+  max-width: 720px;
+ }
+
+ .call_forward_content:before {
+  border-radius: 0px;
+  transform: translate(50%);
+  right: 50%;
+ }
+
+ .call_forward_content_inner_cont {
+  padding: 50px 0px;
+ }
+
+ .call_forward_content_inner_cont h2 {
+  font-size: 26px;
+ }
+
+ .call_forward_left_desc {
+  font-size: 16px;
+ }
+
+ .features_title {
+  margin-top: 35px;
+ }
+
+ /* package section css */
+
+ .plan_btn_wrapper {
+  margin: 0px;
+ }
+
+ .package_yellow_img {
+  position: unset !important;
+  width: 100%;
+  text-align: center;
+ }
+
+ .package_yellow_img img {
+  margin-bottom: 21px;
+  width: 110px;
+  height: 110px;
+ }
+
+ .package_header {
+  flex-wrap: wrap;
+ }
+
+ .package_inner_header {
+  width: 100%;
+  text-align: center;
+ }
+
+ .package_title {
+  font-size: 60px;
+ }
+
+ /* faqs section css */
+
+ .faqs_wrapper {
+  padding: 50px 0px;
+ }
+
+ .question_mark {
+  display: none !important;
+ }
+
+ /* customer section css start from here */
+
+ .customer_right_title {
+  padding-left: 0px;
+ }
+
+ .customer_right_box {
+  box-shadow: none;
+ }
+
+ .swipper_custom_padding {
+  padding: 30px 0px 60px 0px;
+ }
+
+ .customer_right_blue_side:before {
+  right: 50%;
+ }
+
+ .customer_right_blue_side:after {
+  left: 50%;
+ }
+
+ /* service section css start from here */
+
+ .service_box {
+  padding: 30px 14px 40px 14px;
+ }
+
+ .service_left_content {
+  text-align: center;
+ }
+
+ .service_title span {
+  display: inline-block !important;
+ }
+}
+
+@media(max-width:767px) {
+
+ /* banner section css */
+
+ .foward_banner_left_content {
+  text-align: center;
+ }
+
+ .forward_ban_title {
+  font-size: 26px;
+ }
+
+ .forward_ban_desc {
+  text-align: center;
+  max-width: unset;
+ }
+
+ .banner_btn {
+  justify-content: center;
+ }
+
+ .view_btn img {
+  width: 20% !important;
+ }
+
+ .view_btn span {
+  font-size: 16px;
+ }
+
+ /* call forward section css */
+
+ .call_forward_wrapper .container-fluid {
+  max-width: 540px;
+ }
+
+ .customer_left_orange span {
+  display: inline-block !important;
+ }
+
+ .call_forward_content span {
+  display: inline-block !important;
+ }
+
+ .call_forward_content_inner_cont h2 {
+  font-size: 22px;
+ }
+
+ .call_forward_content {
+  text-align: center;
+ }
+
+ .call_forward_content span {
+  display: inline-block;
+ }
+
+ .call_forward_right_side {
+  text-align: center;
+ }
+
+ .feature_items_wrapper {
+  flex-direction: column;
+ }
+
+ .feature_item_img {
+  margin: 0 auto;
+ }
+
+ .feature_item_content {
+  margin-top: 25px;
+ }
+
+ .feature_item_title {
+  max-width: unset;
+
+ }
+
+ /* package section css */
+
+ .park_blue_top_h6 {
+  font-size: 20px;
+ }
+
+ .package_wrapper_title {
+  font-size: 26px;
+ }
+
+ .package_title {
+  font-size: 50px;
+ }
+
+ /* faqs section css  */
+
+ .faqs_left_content {
+  text-align: center;
+ }
+
+ .faqs_wrapper h2 {
+  font-size: 26px;
+ }
+
+ .faqs_desc {
+  font-size: 20px;
+ }
+
+ .faqs_question {
+  display: block !important;
+  text-align: center;
+ }
+
+ .faqs_question p {
+  margin-bottom: 30px !important;
+ }
+
+ /* customer section css */
+
+ .customer_left_orange_side {
+  text-align: center;
+ }
+
+ .customer_left_title {
+  font-size: 26px;
+ }
+
+ .customer_left_desc {
+  font-size: 18px;
+ }
+
+ .customer_left_orange_side:before {
+  display: none;
+ }
+
+ .customer_left_orange_btn_wrap {
+  display: block !important;
+ }
+
+ .customer_left_btn {
+  margin: 0 auto 15px auto;
+  padding: 12px 26px;
+ }
+
+ .or_call_wrap {
+  margin-top: 10px;
+ }
+
+ .customer_right_blue_side {
+  padding: 50px 15px;
+ }
+
+ .customer_right_title {
+  font-size: 26px;
+  text-align: center;
+ }
+
+ /* service section css */
+
+ .service_wrapper .col-lg-4 {
+  width: 80%;
+ }
+
+ .service_wrapper .row {
+  justify-content: center;
+ }
+
+ .custom_margin_top {
+  margin-top: 35px;
+ }
+
+ .service_wrapper h2 {
+  font-size: 26px;
+ }
+}
+
+@media(max-width:481px) {
+
+ /* banner scion css */
+
+ .forward_ban_title {
+  font-size: 22px;
+ }
+
+ .view_btn {
+  padding: 8px 30px;
+ }
+
+ /* package scion css */
+
+ .package_wrapper_title {
+  font-size: 22px;
+ }
+
+ .park_blue_top_h6 {
+  font-size: 16px;
+ }
+
+ .plans_btn {
+  padding: 8px 41px;
+  font-size: 16px;
+ }
+
+ /* fqas section css */
+
+ .faqs_wrapper h2 {
+  font-size: 22px;
+ }
+
+ .faqs_desc {
+  font-size: 16px;
+ }
+
+ .customer_left_title {
+  font-size: 22px;
+ }
+
+ .customer_right_title {
+  font-size: 22px;
+ }
+
+ .service_wrapper h2 {
+  font-size: 22px;
+ }
+
+}
