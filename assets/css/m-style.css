@@ -1457,17 +1457,10 @@ main {
 
 
 .pagination .page-link span img {
-    transform: rotate(0deg);
-    height: 10px;
+    height: 12px;
     margin-top: -5px;
 }
 
-.pagination .page-link .previous_pagination {
-    transform: rotate(180deg);
-    height: 10px;
-    margin-top: -5px;
-    filter: brightness(0) saturate(100%) invert(0%) sepia(5%) saturate(7500%) hue-rotate(228deg) brightness(106%) contrast(106%);
-}
 
 
 .testimonials_customer_section .row .col-4:nth-child(odd) .testimonials_design_box .testimonials_design_body{
