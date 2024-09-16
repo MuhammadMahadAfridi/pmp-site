@@ -154,15 +154,12 @@ nav {
 
 /* Main hero Section */
 
-main {
-    background-image: url('../..../../assets/imgs/bg/homepg_herobanner.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 
 
 .hero_section {
+    background-image: url('../../assets/imgs/bg/homepg_herobanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 100px 0 100px 0;
     margin-top: 100px;
 }
