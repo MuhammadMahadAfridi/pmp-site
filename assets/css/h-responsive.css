@@ -105,12 +105,9 @@
   height: 125px;
  }
 
- .package_btn_wrapper {
-  padding: 10px 40px;
- }
-
- .package_btn_wrapper p {
+ .package_btn {
   font-size: 14px;
+  padding: 10px 40px;
  }
 
  .plans_btn {
@@ -196,6 +193,19 @@
 }
 
 @media(max-width:991px) {
+
+
+ /* call forward section css  */
+ .call_forward_wrapper .col-lg-7 {
+  padding-left: 15px !important;
+ }
+
+ /* customer section css */
+
+ .customer_wrapper .col-lg-6 {
+  padding-right: 15px !important;
+ }
+
 
  /* banner section css start from here */
 
@@ -304,6 +314,7 @@
  .customer_right_blue_side:after {
   left: -145px;
  }
+
  /* service section css start from here */
 
  .service_box {
@@ -320,6 +331,7 @@
 }
 
 @media(max-width:767px) {
+
 
  /* banner section css */
 
@@ -503,6 +515,8 @@
  .view_btn {
   padding: 8px 30px;
  }
+
+ /* call forward section css  */
 
  /* package scion css */
 
