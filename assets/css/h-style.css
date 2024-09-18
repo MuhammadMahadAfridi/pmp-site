@@ -60,6 +60,17 @@
  display: inline-flex;
 }
 
+/* .forward_main_wrapper .view_btn:hover {
+ color: #ff4500 !important;
+ background-color: white;
+ border: 2px solid #ff4500;
+ transition: 0.6s ease-in-out;
+}
+
+.banner_btn .view_btn img:hover {
+ color: #ff4500 !important;
+ transition: 0.6s ease-in-out;
+} */
 
 /* call faroward css start form here */
 .call_forward_wrapper {
@@ -208,7 +219,7 @@
  padding: 30px 0px 20px 0px;
 }
 
-.package_btn_wrapper {
+/* .package_btn_wrapper {
  padding: 12px 50px;
  background-color: #ff4500;
  border-radius: 50px;
@@ -216,7 +227,27 @@
  margin: 0 auto;
  width: fit-content;
  margin-top: -25px;
+} */
+
+.package_btn {
+ padding: 12px 50px;
+ background-color: #ff4500;
+ border-radius: 50px;
+ box-shadow: 0px 16px 32px 0px rgba(255, 69, 0, 0.38);
+ margin: 0 auto;
+ display: block;
+ width: fit-content;
+ margin-top: -25px;
+ cursor: pointer;
 }
+
+.package_btn:hover {
+ border: 2px solid #ff4500;
+ background-color: white;
+ transition: 0.6s ease-in-out;
+ color: #ff4500 !important;
+}
+
 
 .package_body {
  border-bottom-right-radius: 30px;
@@ -239,6 +270,13 @@
  width: fit-content;
  margin: 0 auto;
 }
+
+.plans_btn:hover:hover {
+ transition: 0.6s ease-in-out;
+ background-color: #ff4500;
+ color: white;
+}
+
 
 /* faqs section css start from here */
 
@@ -314,6 +352,13 @@
  box-shadow: 0px 16px 32px 0px rgba(255, 69, 0, 0.38);
 }
 
+.faqs_btn:hover {
+ color: white !important;
+ background-color: #ff4500 !important;
+ transition: 0.6s ease-in-out;
+ border: 2px solid #ff4500;
+}
+
 /* customer section css start from here */
 
 .customer_left_orange {
@@ -363,6 +408,11 @@
  box-shadow: 0px 15px 35px 0px rgba(156, 48, 10, 0.32);
 }
 
+.customer_left_btn:hover {
+ color: #ff4500 !important;
+ background-color: white;
+}
+
 .customer_left_call {
  font-weight: 600;
  font-size: 30px;
@@ -370,7 +420,7 @@
 
 .customer_left_orange_side {
  z-index: 2;
- padding-right:55px ;
+ padding-right: 55px;
 }
 
 .customer_left_orange_side:before {
@@ -401,6 +451,10 @@
 
 .blue_box_desc {
  line-height: 1.333;
+}
+
+.star_icon{
+ color: #ff4500;
 }
 
 .arrow_right {
