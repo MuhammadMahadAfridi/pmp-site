@@ -1,27 +1,27 @@
 
 @media (min-width: 1600px) {
 
-    /* Hero Section */
+
+ /* ====================== Home - Page ====================== */
+
+    /* Home Page - Hero Section */
 
     .hero_section {
         padding: 120px 0 170px 0;
     }
 
-
-    /* Low Month */
+    /* Home Page - Low Month */
 
     .low_month {
         padding: 170px 0 140px 0;
     }
 
-
-    /* Services bottom */
+    /* Home Page - Services bottom */
 
     .alignment_end {
         justify-content: end !important;
     }
   
-
 
 }
  
@@ -35,21 +35,30 @@
         max-width: 1355px;
     }
 
-    /* How - Section */
+
+    /* ====================== Home - Page ====================== */
+    
+    /* Home Page - How Section */
 
     .how_section {
         background: url('assets/imgs/how_bg.webp') no-repeat left / cover;
     }
 
-    /* Get Started  */
 
-    /* .get_started_one .get_one_content_p p {
-        line-height: 1;
-    } */
+    /* ====================== Ready To Get Started - Component ====================== */
 
+    /* Ready To Get Started Component */
+    .ready_left_column {
+        padding-left: 10px;
+    }    
 
 
 }
+
+
+
+
+
 
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
@@ -63,15 +72,16 @@
 
     nav .custom_buttons {
         display: none;
-        /* flex-direction: column-reverse;
-        padding-bottom: 5px; */
     }
 
+
+ /* ====================== Home - Page ====================== */
+
+    /* Home Page - Hero Section */
 
     .hero_section .hero_content {
         padding-top: 50px;
         padding-bottom: 50px;
-        /* width: 520px; */
     }
     .hero_section .hero_content h4 {
         font-size: 36px !important; 
@@ -83,10 +93,7 @@
         font-size: 16px !important;
     }
 
-
-
-
-    /* Get Started Sections */
+    /*  Home Page - Get Started Sections */
 
     .get_started_one {
         flex-direction: column;
@@ -105,22 +112,28 @@
         height: 140px;
     }
 
-   
 
-
-
-    /* Services */
-
+    /* Home Page - Services */
 
     .services .services_img_container .services_three_bg {
         display: none;
     }
 
 
+
+
+
+
+
+
     /* Footer */
+
     footer .footer_last_sec {
         padding-left: 0px !important;
     }
+
+
+
 
 }
 
@@ -161,7 +174,6 @@
 
     }
 
-
     .navbar-nav .nav-item .nav-link {
         justify-content: center;
         height: 60px;
@@ -195,6 +207,7 @@
 
 
 
+ /* ====================== Home - Page ====================== */
 
 
     /* Hero Section */
@@ -212,7 +225,6 @@
     }
 
 
-
     /* Get Started Section */
 
     .get_started_one .get_one_icon img {
@@ -221,14 +233,11 @@
     }
 
 
-
     /* Testimonials  */
 
     .swiper {
         overflow: hidden;
     }
-
-
 
 
     /* Services */
@@ -239,14 +248,7 @@
     }
 
 
-
-
-
-
-
-
     /* FAQS */
-
 
     .faqs {
         padding-bottom: 100px;
@@ -279,7 +281,8 @@
 
 
 
-    /* ========== Testimonials Page Started ========== */
+
+ /* ====================== Testimonials - Page ====================== */
 
     .testimonials_hero {
         margin-top: 0px;
@@ -292,12 +295,6 @@
 
 
 
-
-
-
-
-
-
         
 }
 
@@ -306,6 +303,8 @@
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
+
+ /* ====================== Home - Page ====================== */
 
     /* Hero Section */
 
@@ -324,28 +323,19 @@
     }
     
 
-
-
-
     /* Get Started */
 
     .get_started_one {
         text-align: center;
     }
 
-
     .get_started_one .get_one_icon img {
         margin-left: 8px !important;
     }
 
-
     .box_line_height {
         transform: rotate(90deg);
     }
-
-
-
-
 
     /* Low month Section */
 
@@ -354,17 +344,7 @@
     }
 
 
-
-
-
-    /* Testimonials  */
-
-
-
-
-
     /* Services */
-
     
     .services .services_img_container .services_three_bg {
         display: block;
@@ -376,11 +356,32 @@
 
 
 
+
+ /* ====================== About us - Page ====================== */
+
+
+    /* Call Fowarding and Fax Saving */
+
+    .whatispmp_all .whatispmp_all_img {
+        width: 600px;
+    }
+
+    /* Make Call Section */
+    .makecall_section .makecall_section_img {
+        width: 400px;
+    }
+
+
+
+
+
+
     /* Footer */
 
     footer .footer_last_sec {
         padding-left: 60px;
     }
+
 
 }
 
@@ -392,12 +393,9 @@
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    /* Hero Sections */
+ /* ====================== Home - Page ====================== */
 
-    /* .hero_section .col-sm-12 {
-        width: 100% !important;
-    } */
-
+    /* Hero Section */
 
     .hero_section .hero_content {
         width: 190% !important;
@@ -417,8 +415,6 @@
         height: 20px;
     }
 
-
-
     /* Get Started Sections */
 
     .get_stated_center {
@@ -426,11 +422,9 @@
         padding-bottom: 30px;
     }
 
-
     .get_stated_center .box_line {
         margin: 70px 0 !important;
     }
-
 
     .why_section .why_col {
         flex-direction: column;
@@ -438,8 +432,6 @@
     }
 
     
-
-
 
     /* Low month Section */
 
@@ -480,14 +472,7 @@
 
 
 
-
-
-
-
-
     /* Services Section */
-
-    
 
     .services_column_one .services_icon img {
         width: 60px;
@@ -518,7 +503,9 @@
         height: 40px;
     }
 
-    /* ----- services_bottom */
+
+    /* services_bottom */
+
     .services_bottom .services_bottom_content h1 {
         font-size: 30px;
     }
@@ -528,7 +515,6 @@
     /* FAQs  */
 
     .accordion-body {
-        /* padding: 10px 50px 20px 50px; */
         padding-bottom: 20px;
     }
 
@@ -561,17 +547,31 @@
 
 
 
-
-
-
-    /* HOW PARK MY PHONE WORKS */
+    /* How ParkMyPhone Works - Section */
 
     .how_section .how_columns_price {
         padding-left: 20px;
     }
 
     
-    
+
+
+    /* Ready To Get Started Component */
+    .ready_sec_para_one {
+        margin: 0 40px 0 0;
+    }
+
+
+
+
+
+/* =========== About Us Page =========== */
+
+    /* Aboutus Page => Call Fowarding and Fax Saving */
+
+    .whatispmp_all .whatispmp_all_img {
+        width: 400px;
+    }
 
 
 
@@ -589,20 +589,9 @@
 /* Other Resolutions */
 
 
-@media (max-width: 1250px) {
-    
-}
-
-
 @media (max-width: 400px) {
 
-    /* Get Started  */
-
-    /* .box_line::before {
-        content: url('./assets/imgs/get_started_bg.webp');
-    } */
-    
-
+ /* ====================== Home - Page ====================== */
 
     /* Law Month Section */
 
@@ -629,7 +618,6 @@
         padding-top: 20px;
     }
 
-    
 
     /* FAQS */
 
@@ -645,7 +633,6 @@
         display: block;
     }
     
-
     .accordion_custom {
         margin-top: 40px;
         margin-bottom: 30px;
@@ -678,7 +665,6 @@
         margin: 0;
     }
 
-
     /* Signup  */
     .signup {
         padding-bottom: 30px;
@@ -702,6 +688,8 @@
 
 @media (max-width: 340px) { 
 
+/* ====================== Home - Page ====================== */
+
     .low_month .boxstyling_main {
         margin-left: -90px;
     }
@@ -713,7 +701,6 @@
     .low_month_para {
         margin-left: 45px;
     }
-
 
     /* Testimonials */
 
@@ -728,6 +715,8 @@
 
 
 @media (max-width: 375px) { 
+
+ /* ====================== Home - Page ====================== */
 
     /* Testimonials */
 

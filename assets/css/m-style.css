@@ -22,15 +22,6 @@ body p {
 }
 
 
-#header_scroll {
-    width: 100%;
-    z-index: 99;
-}
-
-.scroll_bg{
-    background-color: white !important;
-}
-
 
 .sec_heading {
     text-transform: uppercase;
@@ -161,10 +152,10 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0 100px 0;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
-.hero_content {
+.hero_content_slidebg {
     position: relative;
     z-index: 1;
     background-color: var(--primary-color);
@@ -174,7 +165,7 @@ nav {
     padding-right: 92px;
     box-shadow: 11.5px 19.919px 45px 0px rgba(10, 9, 10, 0.21);
 }
-.hero_content::before {
+.hero_content_slidebg::before {
     position: absolute;
     content: '';
     height: 100%;
@@ -189,7 +180,7 @@ nav {
     width: 56%;
 }
 
-.hero_section .hero_content h4 {
+ .hero_content h3 {
     text-transform: uppercase;
     font-size: 42px;
     font-weight: 700;
@@ -197,7 +188,7 @@ nav {
     color: white;
 }
 
-.hero_section .hero_content p {
+.hero_content h5 {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: 700;
@@ -205,10 +196,15 @@ nav {
     font-family: var(--montserrat-font);
 }
 
+.hero_content p {
+    color: white;
+    font-size: 21.9px;
+    font-family: var(--opensans-font);
+}
+
 
 .hero_section .hero_content a {
     font-size: 20px;
-    /* color: white; */
     box-shadow: 0px 6px 16px 0px rgba(10, 9, 10, 0.18);
 }
 
@@ -1242,7 +1238,6 @@ nav {
 
 .testimonials_hero {
     background-color: #48a9ca;
-    margin-top: 100px;
 }
 
 .testimonials_hero_content_bg {
@@ -1534,8 +1529,12 @@ nav {
     color: white;
     line-height: 1;
 }
+
+.ready_sec_para_one {
+    margin: 0 160px 0 0;
+}
+
 .ready_sec_para p {
-    margin: 0;
     font-size: 22px;
     color: white;
     line-height: 1.2;
@@ -1551,9 +1550,6 @@ nav {
 }
 
 
-.ready_sec_buttons {
-    padding-top: 34px;
-}
 
 .ready_sec_buttons p {
     color: white;
@@ -1564,7 +1560,7 @@ nav {
 }
 
 .ready_sec_secondbtn {
-    padding-top: 60px;
+        padding-top: 76px;
 }
 
 .ready_right_column, .ready_left_column{
@@ -1572,11 +1568,194 @@ nav {
     padding-bottom: 80px;
 }
 
-
 .ready_sec_buttons .para_small_font {
     font-size: 18px !important;
     font-weight: 700;
 }
+
+.ready_sec_para_two {
+    margin: 0 170px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============ Started Section - About us Page ============ */
+
+.about_hero {
+    background-image: url('../../assets/imgs/bg/about_hero_bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+}
+
+.whatispmp_bg {
+    background: url('../../assets/imgs/bg/aboutus_pg_whatispmp_bg.webp') no-repeat center / cover;
+    padding: 60px 0;
+}
+
+
+.whatispmp_bg_orange_box {
+    background-color: var(--secondary-color);
+    border-radius: 70px 0 70px 0;
+    padding: 70px;
+    position: relative;
+}
+
+.whatispmp_bg_orange_box::after {
+    content: '';
+    position: absolute;
+    background: url('../../assets/imgs/bg/aboutus_pg_whatispmp_orange_bg.webp') no-repeat center / cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.whatispmp_bg_orange_box h3{
+    font-size: 42px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-family: var(--ibmplex-font);
+}
+.whatispmp_bg_orange_box p {
+    font-size: 24px;
+    color: white;
+    font-family: var(--opensans-font);
+}
+
+
+
+.call_fax_section {
+    padding: 70px 0;
+    background-color: #eef4f8;
+}
+.call_fax_section .call_f_title h4 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-family: var(--ibmplex-font);
+}
+
+.call_fax_section .call_f_para p {
+    font-size: 24px;
+    color: #333333;
+    font-family: var(--opensans-font);
+}
+
+.call_fax_section .call_f_icon img {
+    filter: drop-shadow(5px 5px 5px #e3e3e3);
+}
+
+
+
+.philosophy_section {
+    background: url('../../assets/imgs/bg/about_pg_philosophy.webp') no-repeat center / cover; 
+    padding: 70px 0;
+}
+
+.philosophy_section .sec_heading h3{
+    color: white;
+    font-size: 48px;
+    padding-bottom: 40px;
+}
+
+
+
+ .philosophy_para p {
+    color: white;
+    font-size: 24px;
+    font-family: var(--opensans-font);
+    border-left: 4px solid var(--other-cyan);
+    padding-left: 20px;
+    line-height: 1.4;
+}
+
+
+
+.whatispmp_all {
+    background: url('../../assets/imgs/bg/about_pg_whatispmp_all_bg.webp') no-repeat center / cover; 
+    padding: 70px 0;
+}
+
+.whatispmp_all .sec_heading h3 {
+    font-size: 42px;
+    color: var(--secondary-color);
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.whatispmp_all_para p {
+    font-size: 24px;
+    font-family: var(--opensans-font);
+    color: #333333;
+}
+
+
+
+
+
+.makecall_section {
+    background-image: url('../../assets/imgs/bg/about_pg_makecall_bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    padding: 70px 0;
+}
+
+.makecall_content {
+    width: 89%;
+}
+.makecall_section .makecall_title h4 {
+    font-size: 36px;
+    padding-bottom: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.makecall_section .makecall_para p {
+    font-size: 24.15px;
+    color: #333333;
+}
+
+
+.whatmakespmp {
+    background-image: url(../../assets/imgs/icon/about_pg_whatmake.webp);
+    background-repeat: no-repeat;
+    background-size: 240px 240px;
+    background-position: top right;
+}
+
+.whatmakes_sec_heading h4 {
+    width: 80%;
+    font-size: 34px;
+    font-family: var(--opensans-font);
+    font-weight: 650;
+    color: white;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+
 
 
 

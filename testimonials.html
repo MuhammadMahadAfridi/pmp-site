@@ -18,8 +18,6 @@
     <div id="header-placeholder"></div>
 
 
-
-
 <!-- Hero Section -->
     <section>
         <div class="testimonials_hero">
@@ -40,7 +38,6 @@
         </div>
     </section>
  
-
 
 <!-- What Our Customers Are Saying - Testimonials  -->
     <section>
@@ -316,19 +313,17 @@
 <!-- Ready Get -->
     <section>
         <div class="ready_get">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 pe-0">
+            <div class="container gx-0">
+                <div class="row gx-0">
+                    <div class="col-lg-6">
                         <div class="ready_left_column h-100" data-aos="fade-right" data-aos-delay="400" data-aos-duration="600">
                             <diV class="ready_left_bg">
                                 <div class="ready_sec_heading">
                                     <h4>Ready To Get Started?</h4>
                                     <h4>Sign Up Today</h4>
                                 </div>
-                                <div class="ready_sec_para pt-4">
-                                    <p>Transfer your existing phone, fax, or toll-free</p>
-                                    <p>number and start saving now with out</p>
-                                    <p>affordable parking and forwarding plans.</p>
+                                <div class="ready_sec_para pt-4 pb-5">
+                                    <p class="ready_sec_para_one">Transfer your existing phone, fax, or toll-free number and start saving now with out affordable parking and forwarding plans.</p>
                                 </div>
                                 <div class="ready_sec_buttons d-flex align-items-xl-center align-items-start flex-xl-row flex-column gap-4 gap-xl-0">
                                     <a href="#" class="custom_btn secondary_btn">Get Started Here</a>
@@ -338,7 +333,7 @@
                             </diV>
                         </div>
                     </div>
-                    <div class="col-lg-6 ps-0">
+                    <div class="col-lg-6">
                         <div class="ready_right_column h-100" data-aos="fade-left" data-aos-delay="400" data-aos-duration="600">
                             <div class="ready_right_bg">
                                 <div class="ready_sec_heading">
@@ -346,8 +341,7 @@
                                     <h4>the right plan?</h4>
                                 </div>
                                 <div class="ready_sec_para pt-4">
-                                    <p>Click below to check out</p>
-                                    <p>Park My Phone's plan helper.</p>
+                                    <p class="ready_sec_para_two">Click below to check out Park My Phone's plan helper.</p>
                                 </div>
                                 <div class="ready_sec_buttons ready_sec_secondbtn">
                                     <a href="#" class="custom_btn secondary_btn">Find Your Plan</a>
@@ -362,12 +356,9 @@
 
 
 
-
-
-
-
     <!-- Placeholder for the footer -->
     <div id="footer-placeholder"></div>
+
 
 
 
@@ -392,7 +383,6 @@
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.3.6/build/js/intlTelInput.min.js"></script>
 
 
-
   
     <!-- AOS Animated -->
     <script>
@@ -402,6 +392,8 @@
 
     <!-- Pages Loader -->
     <script>
+
+
         function loadHTML(targetID, filePath) {
             fetch(filePath)
                 .then(response => {
@@ -421,6 +413,7 @@
         // Load the header and footer
         loadHTML('header-placeholder', 'header.html');
         loadHTML('footer-placeholder', 'footer.html');
+
 
     </script>
 

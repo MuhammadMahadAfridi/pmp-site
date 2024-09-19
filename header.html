@@ -10,7 +10,7 @@
     <title>Header</title>
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg bg-body-white mx-auto p-0 position-fixed" id="header_scroll">
+        <header class="navbar navbar-expand-lg bg-body-white mx-auto py-0 w-100">
             <div class="container pt-lg-0">
                   <a class="navbar-brand" href="./index.html"><img src="./assets/imgs/icon/logo.svg" alt="logo"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
                       </ul>
                   </div>
             </div>
-        </nav>
+        </header>
 
 
 
@@ -54,19 +54,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
-
-    <script>
-        const navItem = document.querySelectorAll('.nav-link');
-        
-        for(let i=0; i<navItem.length; i++) {
-            navItem[i].addEventListener('click', function() {
-                if(!(this.classList.contains('active'))) {
-                    document.querySelector('.active').classList.remove('active');
-        
-                    this.classList.add('active');
-                }
-            });
-        }
-    </script>
   </body>
 </html>
