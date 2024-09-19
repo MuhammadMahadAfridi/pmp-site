@@ -22,6 +22,19 @@ body p {
 }
 
 
+#header_scroll {
+    width: 100%;
+    z-index: 99;
+    margin-bottom: 100px;
+}
+
+/* .scroll_bg{
+    background-color: white;
+    margin-bottom: 100px !important ;
+} */
+
+.hero_section, .testimonials_hero, .about_hero {margin-top: 100px;}
+
 
 .sec_heading {
     text-transform: uppercase;
@@ -144,8 +157,6 @@ nav {
 
 
 /* Main hero Section */
-
-
 
 .hero_section {
     background-image: url('../../assets/imgs/bg/homepg_herobanner.webp');
