@@ -21,7 +21,8 @@
     .alignment_end {
         justify-content: end !important;
     }
-  
+
+ 
 }
  
 
@@ -57,6 +58,10 @@
     .ready_left_column {
         padding-left: 10px;
     }    
+
+    
+    
+
 
 
 
@@ -447,7 +452,6 @@
         margin: 0;
     }
 
-
     .testimonials_hero {
         margin-top: 75px;
         padding: 0;
@@ -638,6 +642,20 @@
     .ready_sec_para_one {
         margin: 0 40px 0 0;
     }
+
+
+
+/* =========== Testimonials Page =========== */
+
+    .testimonials_hero .bg_overlay {
+        background-blend-mode: overlay;
+        background-color: #216add63;
+    }
+
+    .testimonials_hero .testimonials_hero_content p{
+        color: var(--other-cyan);
+    }
+
 
 
 
