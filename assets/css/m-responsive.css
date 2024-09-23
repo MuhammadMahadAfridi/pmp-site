@@ -22,9 +22,16 @@
         justify-content: end !important;
     }
 
- 
+
+
 }
- 
+
+@media (min-width: 1228px) {
+    .still_have .col-lg-3 {
+        width: 20%;
+    }
+}
+
 
 
 
@@ -765,14 +772,6 @@
     }
 
 
-
-}
-
-
-
-@media (max-width: 370px) { 
-
-   
 
 }
 
