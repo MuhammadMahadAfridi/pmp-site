@@ -24,13 +24,83 @@
 
 
 
+ /* ====================== FAQS - Page ====================== */
+
+
+    .still_border_one {
+        position: absolute;
+        border-left: 3px dashed rgb(237, 182, 12);
+        border-top: 3px dashed rgb(237, 182, 12);
+        height: 200px;
+        width: 17.5%;
+        margin-top: -50px;
+        left: -17%;
+        border-top-left-radius: 10px;
+    }
+    .still_border_five {
+        position: absolute;
+        border-right: 3px dashed #edb60c;
+        border-top: 3px dashed #edb60c;
+        height: 200px;
+        width: 17.5%;
+        margin-top: -50px;
+        right: -17%;
+        border-top-right-radius: 10px;
+    }
+    /* .still_border_five svg {
+        left: 303px;
+    } */
+
+    .still_border_two {
+        position: absolute;
+        border-left: 3px dashed #edb60c;
+        height: 120px;
+        /* width: 158px; */
+        bottom: -84%;
+        left: 16.2%;
+    }
+    
+    .still_border_three {
+        position: absolute;
+        border-left: 3px dashed #edb60c;
+        height: 120px;
+        /* width: 158px; */
+        bottom: -84%;
+        left: 50%;
+    }
+    
+    .still_border_four {
+        position: absolute;
+        border-left: 3px dashed #edb60c;
+        height: 120px;
+        /* width: 158px; */
+        bottom: -84%;
+        left: 83%;
+    }
+    
+
+
+
+
 }
 
 @media (min-width: 1228px) {
     .still_have .col-lg-3 {
         width: 20%;
     }
+
 }
+@media (max-width:1228px) {
+    /* .still_border_one,
+    .still_border_two,
+    .still_border_three,
+    .still_border_four,
+    .still_border_five{
+        display: none;
+    } */
+}
+
+
 
 
 
@@ -142,6 +212,43 @@
 
 
 
+ /* ====================== FAQS - Page ====================== */
+
+ .still_border_one {
+    width: 90px;
+    left: -93px;
+}
+
+.still_border_two {
+    left: 206px;
+}
+.still_border_three {
+    display: none;
+}
+.still_border_four {
+    right: -6px;
+}
+.still_border_five {
+    width: 200px;
+    right: -93px;
+}
+.still_border_five svg {
+    left: 184px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -168,7 +275,12 @@
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
 
-    .hero_section, .testimonials_hero, .about_hero {margin-top: 75px;}
+    .hero_section,
+    .testimonials_hero,
+    .about_hero,
+    .faqs_hero {
+        margin-top: 75px;
+    }
 
 
 
