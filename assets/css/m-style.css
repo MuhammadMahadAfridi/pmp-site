@@ -1863,7 +1863,7 @@ nav {
 
 .faqHRLine{
     border:1px solid #edb60c;
-    width: 90%;
+    width: 92%;
     margin: 0px auto;
     opacity: 1;
 }
@@ -1950,18 +1950,13 @@ nav {
     right: -157px;
     border-top-right-radius: 10px;
 }
-.still_border_five::after {
-    content: url('data:image/svg+xml,<svg enable-background="new 0 0 64 64" height="30" viewBox="0 0 64 64" width="30" xmlns="http://www.w3.org/2000/svg" id="fi_2609201"><g id="Arrow-13"><path d="m54.9210777 20.296875c-.15625-.3701172-.5185547-.6108398-.9208984-.6108398l-44 .0004883c-.4018555 0-.7646484.2407227-.9213867.6108398-.15625.3701172-.0756836.7983398.2045898 1.0864258l22 22.6274414c.1879883.1933594.4467773.3027344.7167969.3027344s.5288086-.109375.7167969-.3027344l22-22.6279297c.2802734-.2885742.3603515-.7163086.2041015-1.0864258z"></path></g></svg>');
-    position: absolute;
-    bottom: -20px;
-    right: -16px;
-}
-/* .still_border_five svg{
+
+.still_border_five svg{
     position: absolute;
     left: 140.4px;
     bottom: -15px;
     fill: var(--secondary-color);
-} */
+}
 
 
 
