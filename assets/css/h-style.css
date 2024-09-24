@@ -219,16 +219,6 @@
  padding: 30px 0px 20px 0px;
 }
 
-/* .package_btn_wrapper {
- padding: 12px 50px;
- background-color: #ff4500;
- border-radius: 50px;
- box-shadow: 0px 16px 32px 0px rgba(255, 69, 0, 0.38);
- margin: 0 auto;
- width: fit-content;
- margin-top: -25px;
-} */
-
 .package_btn {
  padding: 12px 50px;
  background-color: #ff4500;
@@ -277,27 +267,12 @@
  color: white;
 }
 
-
 /* faqs section css start from here */
 
 .faqs_wrapper {
- /* background-color: #f1cf51; */
  background-color: #ecc241;
  padding: 100px 0px;
 }
-
-/* .faqs_wrapper:before {
- position: absolute;
- content: "";
- width: 94%;
- height: 100%;
- background-color: #ecc241;
- margin: 0 0 0 auto;
- display: block;
- left: 0;
- right: 0;
- top: 0;
-} */
 
 .faqs_title {
  line-height: 1;
@@ -305,8 +280,6 @@
 
 .faqs_desc {
  font-size: 24px;
- /* width: 100%;
- max-width: 350px; */
  line-height: 1.2;
 }
 
@@ -377,7 +350,6 @@
  background-color: #ff4500;
  width: 1000px;
  right: 100%;
- /* transform: translate(50%); */
  height: 100%;
  top: 0;
  bottom: 0;
@@ -389,7 +361,6 @@
  background-color: #08a1fe;
  width: 1000px;
  left: 100%;
- /* transform: translate(-50%); */
  height: 100%;
  top: 0;
  bottom: 0;
@@ -453,7 +424,7 @@
  line-height: 1.333;
 }
 
-.star_icon{
+.star_icon {
  color: #ff4500;
 }
 
@@ -519,7 +490,6 @@
  padding: 70px 0px;
  background-size: cover;
  background-repeat: no-repeat;
-
 }
 
 .service_title {
@@ -535,4 +505,171 @@
  border-style: solid;
  padding: 30px 14px 40px 14px;
  height: 100%;
+}
+
+/* ABOUT PAGE CSS start from here */
+
+/* about banner section css start from here */
+
+.fs-55 {
+ font-size: 55px;
+}
+
+.about_main_wrapper {
+ background-image: url('../imgs/bg/about-banner.webp');
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 240px 0px 130px 0px;
+ background-position: center;
+}
+
+.contact_banner_title {
+ border-bottom: 5px solid #1debfd;
+}
+
+/* form section css start from here */
+
+.form__main_wrapper {
+ background-image: url('../imgs/bg/form-main-bg.webp');
+ padding: 70px 0px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: bottom;
+}
+
+.form_wrapper_top_content {
+ margin-bottom: 60px;
+}
+
+.form_top_title {
+ font-size: 48px;
+ color: #1b75bc;
+ line-height: 1.283;
+}
+
+.form_inner_wrapper {
+ background-image: url('../imgs/bg/formbg-innerr.webp');
+ padding: 60px 0px;
+ background-repeat: no-repeat;
+ background-color: white;
+ border-radius: 20px;
+ box-shadow: 0px 5px 50px 0px rgba(182, 182, 182, 0.75);
+}
+
+.form_btn:hover {
+ background-color: white;
+ transition: 0.6s ease-in-out;
+ border: 2px solid #ff4500;
+ color: #ff4500 !important;
+}
+
+
+.form_left_content {
+ padding-left: 60px;
+}
+
+.form_btn {
+ background-color: #ff4500;
+ padding: 20px 44px;
+ border-radius: 50px;
+ width: fit-content;
+ margin-left: 60px;
+}
+
+.form_right_content {
+ padding-right: 60px;
+}
+
+.form-control {
+ padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+ border: 1px solid #ced4da !important;
+ outline: none;
+}
+
+.resize_custom {
+ resize: none;
+ min-height: unset;
+}
+
+/* .form_btn:hover {
+ background-color: white;
+ transition: 0.6s ease-in-out;
+ border: 2px solid #ff4500;
+ color: #ff4500 !important;
+} */
+
+/* helpline section css start from here */
+
+.grid-item {
+ padding: 60px 0px;
+ border-top: 6px solid;
+ border-color: transparent;
+ border-top-left-radius: 3px;
+ border-top-right-radius: 3px;
+ transition: .2s all ease-in-out;
+ text-align: center;
+}
+
+.grid-item:hover {
+ background-color: #e2f1fe;
+ border-top: 6px solid;
+ border-right: 1.4px solid;
+ border-left: 1.4px solid;
+ border-bottom: 0;
+ border-color: #216add;
+}
+
+.grid-container-fluid {
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+}
+
+.helpline_btn {
+ background-color: #ff4500;
+ padding: 10px 20px;
+ font-size: 21.35px;
+ border-radius: 25px;
+ box-shadow: 0px 5px 14px 0px rgba(10, 9, 10, 0.18);
+}
+
+.custom_padding_helpline_btn {
+ padding: 10px 40px;
+}
+
+.helpline_content::after {
+ content: '';
+ position: absolute;
+ width: 75px;
+ height: 4px;
+ bottom: -30%;
+ left: 36%;
+ border-radius: 4px;
+ background-color: #216add;
+}
+
+.helpline_img img:hover {
+ background-color:#216add;
+ box-shadow: 0px 0px 2px 9px #7faced, 0px 0px 2px 25px #a8c8f4;
+}
+
+.helpline_img img {
+ padding: 15px;
+ border-radius: 50px;
+ background-color: #ff4500;
+ box-shadow: 0px 0px 2px 9px #ffa07c, 0px 0px 2px 25px #ffc7b2;
+ width: 60px;
+ height: 60px;
+}
+
+.helpline_img {
+ margin-bottom: 50px;
+}
+
+a.helpline_btn img {
+ width: 25px;
+ height: 25px;
 }
