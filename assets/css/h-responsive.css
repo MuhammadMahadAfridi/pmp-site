@@ -6,9 +6,16 @@
 
 @media(max-width:1600px) {
 
+ /* call forward page css */
+
  .call_forward_right_side {
   padding-right: 100px;
  }
+
+ /* contact page css */
+
+
+
 }
 
 @media(max-width:1400px) {
@@ -190,6 +197,16 @@
  .serv_box_title {
   font-size: 12px;
  }
+
+ /* CONTACT SECTION CSS */
+
+
+ /* helpline sectionn css start from here */
+
+ .grid-container-fluid {
+  grid-template-columns: repeat(3, 1fr);
+ }
+
 }
 
 @media(max-width:991px) {
@@ -328,6 +345,33 @@
  .service_title span {
   display: inline-block !important;
  }
+
+ /* CONTACT PAGE CSS */
+
+ /* form section css start from here */
+
+ .form_top_desc {
+  font-size: 20px;
+ }
+
+ .form-control {
+  width: 90%;
+ }
+
+ .form_left_content {
+  padding-left: 40px;
+ }
+
+ .form_right_content {
+  padding-left: 40px;
+  padding-right: 0px;
+  margin-top: 45px;
+ }
+
+ .form_btn {
+  margin-left: 40px;
+ }
+
 }
 
 @media(max-width:767px) {
@@ -502,6 +546,58 @@
  .service_wrapper h2 {
   font-size: 26px;
  }
+
+ /* contact page css  */
+
+ /* contact banner section css start from here */
+
+ .contact_banner_content {
+  text-align: center;
+ }
+
+ /* form section css */
+
+ .form_btn {
+  padding: 15px 40px;
+ }
+
+ .grid-container-fluid {
+  grid-template-columns: repeat(2, 1fr);
+ }
+
+}
+
+@media(max-width:576px) {
+
+ /* contact page css start from here */
+
+
+ /* banner section css */
+
+ .contact_banner_title {
+  font-size: 42px;
+ }
+
+ /* form section css */
+
+ .form_top_desc {
+  font-size: 18px;
+ }
+
+ /* helpline section css */
+
+ .grid-container-fluid {
+  grid-template-columns: repeat(1, 1fr);
+ }
+
+ .helpline_content::after {
+  left: 42%;
+ }
+
+ .helpline_content::after {
+  left: 44%;
+ }
+
 }
 
 @media(max-width:481px) {
@@ -555,4 +651,30 @@
   font-size: 22px;
  }
 
+ /* contact page css start from here */
+
+ /* helpline section css */
+
+ .helpline_content::after {
+  left: 40%;
+ }
+
+ .contact_banner_title {
+  font-size: 36px;
+ }
+
+ .form_top_title {
+  font-size: 36px;
+  color: #1b75bc;
+  line-height: 1.283;
+ }
+
+
+ /* contact page css star from here */
+}
+
+@media (max-width:350px) {
+ .helpline_content::after {
+  left: 34%;
+ }
 }
