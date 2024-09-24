@@ -556,12 +556,6 @@
  box-shadow: 0px 5px 50px 0px rgba(182, 182, 182, 0.75);
 }
 
-.form_btn:hover {
- background-color: white;
- transition: 0.6s ease-in-out;
- border: 2px solid #ff4500;
- color: #ff4500 !important;
-}
 
 
 .form_left_content {
@@ -574,6 +568,13 @@
  border-radius: 50px;
  width: fit-content;
  margin-left: 60px;
+ border: 2px solid #ff4500;
+}
+
+.form_btn:hover {
+ background-color: white;
+ transition: 0.6s ease-in-out;
+ color: #ff4500 !important;
 }
 
 .form_right_content {
@@ -594,13 +595,6 @@ textarea:focus {
  resize: none;
  min-height: unset;
 }
-
-/* .form_btn:hover {
- background-color: white;
- transition: 0.6s ease-in-out;
- border: 2px solid #ff4500;
- color: #ff4500 !important;
-} */
 
 /* helpline section css start from here */
 
@@ -652,7 +646,7 @@ textarea:focus {
 }
 
 .helpline_img img:hover {
- background-color:#216add;
+ background-color: #216add;
  box-shadow: 0px 0px 2px 9px #7faced, 0px 0px 2px 25px #a8c8f4;
 }
 
