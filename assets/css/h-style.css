@@ -630,6 +630,12 @@ textarea:focus {
  box-shadow: 0px 5px 14px 0px rgba(10, 9, 10, 0.18);
 }
 
+.helpline_btn:hover {
+ background-color: #216add;
+ transition: 0.6s ease-in-out;
+}
+
+
 .custom_padding_helpline_btn {
  padding: 10px 40px;
 }
@@ -639,15 +645,20 @@ textarea:focus {
  position: absolute;
  width: 75px;
  height: 4px;
- bottom: -30%;
- left: 36%;
+ transform: translate(-45px, -30px);
  border-radius: 4px;
  background-color: #216add;
 }
 
-.helpline_img img:hover {
+/* .helpline_img img:hover {
  background-color: #216add;
  box-shadow: 0px 0px 2px 9px #7faced, 0px 0px 2px 25px #a8c8f4;
+} */
+
+.grid-item:hover .helpline_img img {
+ background-color: #216add;
+ box-shadow: 0px 0px 2px 9px #7faced, 0px 0px 2px 25px #a8c8f4;
+ transition: 0.6s ease-in-out;
 }
 
 .helpline_img img {

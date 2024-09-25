@@ -69,6 +69,20 @@
  }
 }
 
+@media(max-width:1280px) {
+
+ /* contact page css start from here */
+
+ .helpline_title {
+  font-size: 20px;
+ }
+
+ .helpline_btn {
+  font-size: 18px;
+ }
+
+}
+
 @media(max-width:1200px) {
 
  /* forward section css */
@@ -206,7 +220,6 @@
  .grid-container-fluid {
   grid-template-columns: repeat(3, 1fr);
  }
-
 }
 
 @media(max-width:991px) {
@@ -374,7 +387,7 @@
 
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
 
 
  /* banner section css */
@@ -590,13 +603,6 @@
   grid-template-columns: repeat(1, 1fr);
  }
 
- .helpline_content::after {
-  left: 42%;
- }
-
- .helpline_content::after {
-  left: 44%;
- }
 
 }
 
@@ -655,9 +661,6 @@
 
  /* helpline section css */
 
- .helpline_content::after {
-  left: 40%;
- }
 
  .contact_banner_title {
   font-size: 36px;
@@ -671,10 +674,4 @@
 
 
  /* contact page css star from here */
-}
-
-@media (max-width:350px) {
- .helpline_content::after {
-  left: 34%;
- }
 }
