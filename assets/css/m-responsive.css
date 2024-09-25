@@ -27,69 +27,17 @@
  /* ====================== FAQS - Page ====================== */
 
 
-    .still_border_one {
-        position: absolute;
-        border-left: 3px dashed rgb(237, 182, 12);
-        border-top: 3px dashed rgb(237, 182, 12);
-        height: 200px;
-        width: 17.5%;
-        margin-top: -50px;
-        left: -17%;
-        border-top-left-radius: 10px;
-    }
-    .still_border_five {
-        position: absolute;
-        border-right: 3px dashed #edb60c;
-        border-top: 3px dashed #edb60c;
-        height: 200px;
-        width: 17.5%;
-        margin-top: -50px;
-        right: -17%;
-        border-top-right-radius: 10px;
-    }
-    /* .still_border_five svg {
-        left: 303px;
-    } */
-
-    .still_border_two {
-        position: absolute;
-        border-left: 3px dashed #edb60c;
-        height: 120px;
-        /* width: 158px; */
-        bottom: -84%;
-        left: 16.2%;
-    }
-    
-    .still_border_three {
-        position: absolute;
-        border-left: 3px dashed #edb60c;
-        height: 120px;
-        /* width: 158px; */
-        bottom: -84%;
-        left: 50%;
-    }
-    
-    .still_border_four {
-        position: absolute;
-        border-left: 3px dashed #edb60c;
-        height: 120px;
-        /* width: 158px; */
-        bottom: -84%;
-        left: 83%;
-    }
-    
-
-
-
-
 }
+
+
 
 @media (min-width: 1228px) {
     .still_have .col-lg-3 {
         width: 20%;
     }
-
 }
+
+
 @media (max-width:1228px) {
     /* .still_border_one,
     .still_border_two,
