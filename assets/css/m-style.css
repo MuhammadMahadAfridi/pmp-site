@@ -270,26 +270,14 @@ nav {
     padding: 60px 0 90px 0;
 }
 
-.get_started .sec_heading {
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--other-grey);
-    font-family: var(--ibmplex-font);
-}
-
-.get_started .sec_heading h3{
+.get_started .section_title {
     font-size: 36px;
     font-weight: 700;
     padding: 0;
     margin: 0;
     color: #3e3e3e;
 }
-
-.sec_heading span{
-    color: var(--secondary-color);
-}
-
-.get_started .sec_heading p{
+.get_started .section_para {
     text-transform: none;
     font-family: var(--opensans-font);
     padding: 0;
@@ -599,12 +587,16 @@ nav {
     padding: 60px 0 90px 0;
 }
 
-.why_section .sec_heading {
+
+.why_section .section_title {
     color: white;
+    font-size: 36px;
 }
-.why_section .sec_heading span{
-    color: var(--other-cyan);
+
+.why_section .section_title span{
+    color: #1debfd;
 }
+
 
 .why_section .why_col {
     display: flex;
@@ -771,7 +763,9 @@ nav {
     padding: 40px 0 40px 0;
 }
 
-.testimonials .sec_heading h3 {
+.testimonials .section_title {
+    width: 29%;
+    font-size: 36px;
     margin: 0 auto;
     color: #222222;
 }
@@ -894,9 +888,9 @@ nav {
 }
 
 
-.services .sec_heading h3 {
-    margin: 0 auto;
+.services .section_title {
     color: #222222;
+    font-size: 36px;
 }
 
 
@@ -967,9 +961,10 @@ nav {
     padding: 70px 0 70px 0;
 }
 
-.how_section .sec_heading h3{
+.how_section .section_title {
     color: #222222;
     text-align: left;
+    font-size: 36px;
 }
 
 .how_column h4 {
@@ -1115,7 +1110,7 @@ nav {
 
 
 
-.faqs_main .faqs .sec_heading {
+.faqs_main .faqs .section_title {
     display: none;
 }
 
