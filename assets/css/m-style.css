@@ -369,13 +369,16 @@ nav {
     z-index: 1;
 }
 
+.get_started .get_started_one .get_one_content .custom_btn {
+    border: 0;
+}
+
 
 
 
 .tel_input_custom {
     width: 100%;
     border-radius: 8px;
-    /* padding: 10px 0; */
     padding-top: 7.9px;
     padding-bottom: 7.9px;
     border: 2px solid #dddbdb;
