@@ -51,6 +51,42 @@ body p {
 }
 
 
+
+
+.section_title {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--other-grey);
+    font-family: var(--ibmplex-font);
+    font-size: 47px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.section_title span{
+    color: var(--secondary-color);
+}
+.section_para {
+    text-align: center;
+    text-transform: none;
+    font-family: var(--opensans-font);
+    padding: 0;
+    color: #333333;
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Header */
 
 nav {
@@ -1434,6 +1470,7 @@ nav {
 
 .testimonials_de_para {
     padding-top: 30px;
+    line-height: 1.4;
 }
 
 .testimonials_de_para p {
@@ -1448,11 +1485,11 @@ nav {
 
 
 
-.testimonials_customer_section, .page-link {
+.testimonials_customer_section .page-link {
     font-size: 21px !important;
     color: black;
+    border: 2px solid #96befd;
     font-weight: 500;
-    border:2px solid #96befd;
     padding: 0;
     margin: 0;
     line-height: 0.8;
@@ -1464,7 +1501,6 @@ nav {
     outline: 0;
     box-shadow: none;
 }
-
 
 .pagination .page-link span img {
     height: 12px;
@@ -1686,10 +1722,9 @@ nav {
     padding: 70px 0;
 }
 
-.philosophy_section .sec_heading h3{
-    color: white;
-    font-size: 48px;
+.philosophy_section .section_title {
     padding-bottom: 40px;
+    color: white;
 }
 
 
@@ -1710,11 +1745,11 @@ nav {
     padding: 70px 0;
 }
 
-.whatispmp_all .sec_heading h3 {
-    font-size: 42px;
+
+.whatispmp_all .section_title {
     color: var(--secondary-color);
     text-align: left;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .whatispmp_all_para p {
@@ -1814,9 +1849,11 @@ nav {
 /* FAQs Page - Sections of FAQs */
 
 .f_faqs {
-    background: url('../../assets/imgs/bg/f_faqs_pg_dropdowns_bg.webp') no-repeat bottom / cover;
-    /* padding-bottom: 140px; */
+    background-image: url('../../assets/imgs/bg/f_faqs_pg_dropdowns_bg.webp');
+    background-position: 100% 63%;
 }
+
+
 
 .f_faqs .sec_heading h3{
     font-size: 47px;
@@ -1825,9 +1862,7 @@ nav {
     font-family: var(--opensans-font);
 }
 
-.f_faqs .sec_heading p{
-    padding-top: 10px;
-    text-transform: none;
+.f_faqs .section_para {
     font-size: 25px;
     color: var(--primary-color);
     font-weight: 700;
@@ -2369,7 +2404,7 @@ nav {
     top: 0;
     left: 0;
     padding: 14px 26px;
-    border-radius: 10px 0 10px 0;
+    border-radius: 4px 0 10px 0;
     background-blend-mode: overlay;
     background-color: #216addc2;
 }
