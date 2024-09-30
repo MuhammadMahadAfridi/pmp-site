@@ -438,7 +438,7 @@
     }
 
     .box_line::before {
-        content: '';
+        content: url('../../assets/imgs/bg/get_or_bg_homepg.webp');
     }
 
 

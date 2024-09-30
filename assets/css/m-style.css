@@ -303,7 +303,9 @@ nav {
 }
 
 .get_one_content {
+    position: relative;
     padding-top: 28px;
+    z-index: 1;
 }
 
 .get_started_one .get_one_content h4{
