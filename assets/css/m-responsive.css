@@ -651,6 +651,8 @@
 
     .low_month .low_month_section .custom_btn {
         font-size: 14px;
+        margin-top: 5px;
+        margin-left: 70px;
     }
 
     .low_month .low_month_section .low_month_para{
@@ -815,7 +817,7 @@
     }
 
     .low_month .custom_btn {
-        margin-left: 100px;
+        margin-left: 65px;
         font-size: 12px !important;
     }
 
@@ -897,9 +899,6 @@
         margin-left: -90px;
     }
     
-    .low_month .custom_btn {
-        margin-left: 75px;
-    }
 
     .low_month_para {
         margin-left: 45px;
