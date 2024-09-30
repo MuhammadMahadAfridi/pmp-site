@@ -26,14 +26,12 @@
 
  <!-- Hero Section -->
   <section class="hero_section" id="hero_section">
-   <div class="container p-sm-2 p-0">
+   <div class="container p-sm-2">
     <div class="row ">
-     <div class="col-lg-6 col-md-12 col-12">
+     <div class="col-lg-6 col-md-12 col-12 custom_width">
       <div class="hero_content hero_content_slidebg" data-aos="fade-right" data-aos-delay="100" data-aos-duration="600" data-aos-offset="200">
-       <div>
         <h3>Keep your number without paying high monthly phone bills</h3>
-       </div>
-       <h5 class="pt-1 pb-md-3">Transfer your number to us & start saving now!</h5>
+       <h5 class="py-2 pb-md-3">Transfer your number to us & start saving now!</h5>
        <a href="#" class="custom_btn secondary_btn ms-1">
         <svg id="fi_4827190" enable-background="new 0 0 512 512" height="40" viewBox="0 0 512 512" width="40"
          xmlns="http://www.w3.org/2000/svg">
@@ -98,6 +96,7 @@
                 <input id="phone" type="" class="tel_input_custom" placeholder="000-000-0000">
                 <input type="submit" value="Proceed" class="custom_btn secondary_btn mt-4">
                </form>
+
             </div>
             </div>
           </div>
@@ -147,9 +146,7 @@
                   Please provide a valid city.
                   </div>
                 </div>
-                <div class="custom_buttons pt-2">
-                  <button class="custom_btn secondary_btn" type="submit">Proceed</button>
-                </div>
+                  <input type="submit" value="Proceed" class="custom_btn secondary_btn mt-4">
                 </form>
               </div>
               <div class="hide" id='tab-two'>
@@ -177,9 +174,7 @@
                   Please provide a valid city.
                   </div>
                 </div>
-                <div class="custom_buttons pt-2">
-                  <button class="custom_btn secondary_btn" type="submit">Proceed</button>
-                </div>
+                  <input type="submit" value="Proceed" class="custom_btn secondary_btn mt-4">
                 </form>
               </div>
               </div>
@@ -683,6 +678,11 @@
 
 
  <!-- How Section -->
+
+
+  
+ 
+ 
   <section class="how_section">
    <div class="container">
      <h3 class="section_title">How Park my phone works</h3>
@@ -690,11 +690,9 @@
     <div class="row pt-5">
      <div class="col-lg-7 col-12 d-flex flex-column gap-4">
       <div
-       class="how_column d-flex flex-row flex-column flex-md-row gap-2 gap-md-4 align-items-md-end align-items-start"
+       class="how_column d-flex gap-2 gap-md-4 align-items-start"
        data-aos="fade-right" data-aos-delay="200" data-aos-duration="600" data-aos-offset="200">
-       <div class="">
-        <h1>1</h1>
-       </div>
+        <h1 class="how_column_title_number">1</h1>
        <div class="">
         <h4>Transfer your phone number to us.</h4>
         <p>When you’re ready, you can transfer your number from your current provider over to us. This process is called
@@ -702,30 +700,24 @@
        </div>
       </div>
       <div
-       class="how_column d-flex flex-row flex-column flex-md-row gap-2 gap-md-4 align-items-md-end align-items-start"
+       class="how_column d-flex gap-2 gap-md-4 align-items-start"
        data-aos="fade-right" data-aos-delay="300" data-aos-duration="600" data-aos-offset="200">
-       <div class="">
-        <h1>2</h1>
-       </div>
+        <h1 class="how_column_title_number">2</h1>
        <div class="">
         <h4>Choose how to process your parked phone's incoming calls.</h4>
         <p>When you’re ready, you can transfer your number from your current provider over to us. This process is called
          ‘porting’. You can either port your phone right away or you can give us a future date to port.</p>
        </div>
       </div>
-      <div
-       class="how_column d-flex flex-row flex-column flex-md-row gap-2 gap-md-4 align-items-md-end align-items-start"
-       data-aos="fade-right" data-aos-delay="400" data-aos-duration="600" data-aos-offset="200">
-       <div class="">
-        <h1>3</h1>
-       </div>
+      <div class="how_column d-flex gap-2 gap-md-4 align-items-start" data-aos="fade-right" data-aos-delay="400" data-aos-duration="600" data-aos-offset="200">
+       <h1 class="how_column_title_number">3</h1>
        <div class="how_column_margin">
         <h4>Start saving money on your phone bills.</h4>
         <p>After your number is parked with us, you’ll no longer have to pay your phone bills to your old provider. You
          can cancel and get your number back at any time!</p>
        </div>
       </div>
-      <div class="how_columns_price" data-aos="fade-left" data-aos-delay="400" data-aos-duration="600" data-aos-offset="200">
+      <div class="how_columns_price pt-4" data-aos="fade-left" data-aos-delay="400" data-aos-duration="600" data-aos-offset="200">
        <h4>Pricing as low as</h4>
        <h1>$3<span>a month*</span></h1>
        <a href="#" class="custom_btn secondary_btn">Get started here</a>
@@ -733,7 +725,67 @@
      </div>
     </div>
    </div>
-  </section>
+  </section> 
+  
+ 
+
+
+<!-- 
+  <section class="how_section">
+    <div class="container">
+      <h3 class="section_title">How Park my phone works</h3>
+ 
+     <div class="row pt-5">
+      <div class="col-lg-7 col-12 d-flex flex-column gap-4">
+       <div
+        class="how_column"
+        data-aos="fade-right" data-aos-delay="200" data-aos-duration="600" data-aos-offset="200">
+        <div class="">
+         <h1>1</h1>
+        </div>
+        <div class="">
+         <h4>Transfer your phone number to us.</h4>
+         <p>When you’re ready, you can transfer your number from your current provider over to us. This process is called
+          ‘porting’. You can either port your phone right away or you can give us a future date to port.</p>
+        </div>
+       </div>
+       <div
+        class="how_column d-flex flex-row flex-column flex-md-row gap-2 gap-md-4 align-items-md-end align-items-start"
+        data-aos="fade-right" data-aos-delay="300" data-aos-duration="600" data-aos-offset="200">
+        <div class="">
+         <h1>2</h1>
+        </div>
+        <div class="">
+         <h4>Choose how to process your parked phone's incoming calls.</h4>
+         <p>When you’re ready, you can transfer your number from your current provider over to us. This process is called
+          ‘porting’. You can either port your phone right away or you can give us a future date to port.</p>
+        </div>
+       </div>
+       <div
+        class="how_column d-flex flex-row flex-column flex-md-row gap-2 gap-md-4 align-items-md-end align-items-start"
+        data-aos="fade-right" data-aos-delay="400" data-aos-duration="600" data-aos-offset="200">
+        <div class="">
+         <h1>3</h1>
+        </div>
+        <div class="how_column_margin">
+         <h4>Start saving money on your phone bills.</h4>
+         <p>After your number is parked with us, you’ll no longer have to pay your phone bills to your old provider. You
+          can cancel and get your number back at any time!</p>
+        </div>
+       </div>
+       <div class="how_columns_price" data-aos="fade-left" data-aos-delay="400" data-aos-duration="600" data-aos-offset="200">
+        <h4>Pricing as low as</h4>
+        <h1>$3<span>a month*</span></h1>
+        <a href="#" class="custom_btn secondary_btn">Get started here</a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+ -->
+
+
+
 
 
  <!-- FAQs - Section  -->
@@ -826,7 +878,7 @@
  <!-- Signup Section -->
   <section class="signup">
    <div class="container">
-    <div class="row d-flex align-items-center">
+    <div class="row d-flex align-items-center text-md-start text-center">
      <div class="col-lg-6 col-12">
       <div class="signup_content_one">
        <h5>Ready To Get Started?</h5>

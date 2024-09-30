@@ -65,9 +65,9 @@
     
     /* Home Page - How Section */
 
-    .how_section {
+    /* .how_section {
         background: url('assets/imgs/how_bg.webp') no-repeat left / cover;
-    }
+    } */
 
     
 /* ====================== About Us - page ====================== */
@@ -299,12 +299,14 @@
 
 
     /* Hero Section */
-
+    .hero_section .custom_width {
+        width: 100%;
+    }
     .hero_section .hero_content {
         padding-top: 50px;
         padding-bottom: 50px;
-        width: 520px;
     }
+    
     .hero_section .hero_content h4 {
         font-size: 36px;
     }
@@ -425,6 +427,16 @@
         transform: rotate(90deg);
     }
 
+    .box_line::before {
+        content: '';
+    }
+
+
+    .get_started .get_started_one .custom_btn {
+        width: 100%;
+    }
+
+
     /* Low month Section */
 
     .low_month .low_month_section .boxstyling{
@@ -442,6 +454,14 @@
         width: 200px;
     }
 
+
+
+    /* SignUp */
+
+    .signup_content_one p{
+        margin: 0 auto;
+        padding: 20px 0 25px 0;
+    }
 
 
 
@@ -484,32 +504,37 @@
 /* =========  Hero_Sections Component - Start ============*/
     .hero_section {
         margin-top: 75px;
-        padding: 0;
+        padding: 60px 0;
+    }
+    .hero_section .custom_width {
+        width: 100%;
+    }
+    .hero_content_slidebg {
+        text-align: center;
+        border-radius: 50px !important;
+    }
+    .hero_content_slidebg::before {
+        display: none;
     }
     .hero_section .hero_content{
         padding: 0 20px;
     }
+    .hero_section .hero_content h3 {
+        font-size: 36px;
+    }
     .hero_section .hero_content h5{
         margin-top: 20px;
+        font-size: 16px;
         color: #00e5ff;
     }
     .hero_section .hero_content a{
         margin-top: 20px;
     }
-    .hero_content_slidebg {
-        position: relative;
-        z-index: 1;
-        text-align: center;
-        background-blend-mode: overlay;
-        background-color: #2169dd83;
-        border-radius: 0;
-        padding: 0px;
-        padding-right: 0px;
-    }
-    .hero_content_slidebg::before {
+
+    /* .hero_content_slidebg::before {
         background-blend-mode: overlay;
         background-color: #216add63;
-    }
+    } */
 
     .about_hero .hero_content {
         padding: 50px 10px;
@@ -532,6 +557,14 @@
     }
 
 
+    /* How section  */
+    .how_columns_price {
+        padding-left: 74px;
+    }
+
+
+
+
 /* Hero_Sections Component - End */
 
 
@@ -547,7 +580,7 @@
     /* Hero Section */
 
     .hero_section .hero_content {
-        width: 190% !important;
+        /* width: 190% !important; */
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -680,10 +713,7 @@
         width: 80%;
     }
 
-    .signup_content_two {
-        flex-direction: column;
-        align-items: start;
-    }
+    
 
     .signup .signup_content_two .custom_btn{
         font-size: 12px;
@@ -876,6 +906,11 @@
     .testimonials .sec_heading h3 {
         width: auto;
         font-size: 30px;
+    }
+
+    .signup_content_two {
+        flex-direction: column;
+        /* align-items: start; */
     }
 
 
