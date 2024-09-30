@@ -845,8 +845,28 @@ nav {
         color: var(--secondary-color);
     }
 
+
+    .swiper_custom_buttons {
+        position: relative;
+    }
+
+    .swiper_custom_buttons .swiper-next {
+        position: absolute;
+        right: -60px;
+        top: -190px;
+    }
+
+    .swiper_custom_buttons .swiper-prev {
+        position: absolute;
+        left: -60px;
+        top: -190px;
+    }
+    
+
+
+/*
       
-    .swiper-button-next{
+     .swiper-button-next{
         background-image: url('../../assets/imgs/icon/testimonials_homepg_next_icon.webp') !important;
         background-repeat: no-repeat;
         background-size: 100% auto;
@@ -863,18 +883,22 @@ nav {
         margin-top: 11px;
     }
 
+     
+
     .swiper-button-next::after {
         display: none;
     }
-        
     .swiper-button-prev::after {
         display: none;
     }
+*/
 
-    .swiper-button-next,
+    /* .swiper-button-next,
     .swiper-button-prev {
-        z-index: 999 !important; /* Adjust the value if needed */
-    }
+        z-index: 999 !important; 
+    } 
+        
+*/
     
 
 

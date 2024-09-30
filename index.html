@@ -146,7 +146,7 @@
                   Please provide a valid city.
                   </div>
                 </div>
-                  <input type="submit" value="Proceed" class="custom_btn secondary_btn mt-4">
+                  <input type="submit" value="Proceed" class="col-lg-4 col-12 custom_btn secondary_btn mt-4">
                 </form>
               </div>
               <div class="hide" id='tab-two'>
@@ -433,8 +433,8 @@
       </div>  
    <div class="container">
     <div class="row py-5 ps-lg-5">
-     <div class="col-lg-6 col-12">
-      <div class="swiper testimonialSwiper">
+     <div class="col-xl-6 col-lg-8 col-12">
+      <div class="swiper testimonialSwiper ps-2">
        <div class="swiper-wrapper">
         <div class="swiper-slide">
          <div class="testimonials_column">
@@ -510,8 +510,14 @@
         </div>
 
        </div>
-       <div class="swiper-button-next"></div>
-       <div class="swiper-button-prev"></div>
+       <div class="swiper_custom_buttons d-flex">
+          <div class="swiper-next">
+            <img src="./assets/imgs/icon/testimonials_homepg_next_icon.webp">
+          </div> 
+          <div class="swiper-prev">
+            <img src="./assets/imgs/icon/testimonials_homepg_prev_icon.webp">
+          </div>
+       </div>
       </div>
      </div>
     </div>
@@ -996,8 +1002,8 @@
    loop: true,
    spaceBetween: 120,
    navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-next",
+    prevEl: ".swiper-prev",
    },
    autoplay: {
     delay: 5500,

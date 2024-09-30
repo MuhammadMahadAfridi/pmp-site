@@ -324,10 +324,20 @@
 
 
     /* Testimonials  */
-
+/* 
     .swiper {
         overflow: hidden;
+    } */
+
+    .swiper_custom_buttons .swiper-next {
+        right: 200px;
+        top: 20px;
     }
+    .swiper_custom_buttons .swiper-prev {
+        left: 200px;
+        top: 20px;
+    }
+
 
 
     /* Services */
@@ -548,6 +558,16 @@
         margin-top: 75px;
         padding: 0;
     }
+
+    .swiper_custom_buttons .swiper-next {
+        right: 100px;
+        top: 20px;
+    }
+    .swiper_custom_buttons .swiper-prev {
+        left: 100px;
+        top: 20px;
+    }
+
     .testimonials_hero .testimonials_hero_content {
         padding: 40px 20px;
     }
