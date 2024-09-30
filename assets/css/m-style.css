@@ -873,11 +873,9 @@ nav {
 
     .swiper-button-next,
     .swiper-button-prev {
-        z-index: 11 !important; /* Adjust the value if needed */
+        z-index: 999 !important; /* Adjust the value if needed */
     }
-
-
-
+    
 
 
 
