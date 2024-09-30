@@ -768,12 +768,15 @@ nav {
 }
 
 .testimonials .section_title {
-    width: 29%;
+    width: 400px;
     font-size: 36px;
     margin: 0 auto;
     color: #222222;
 }
 
+.testimonials_container_heading {
+    width: 100%;
+}
 
 
     .swiper {
@@ -811,6 +814,7 @@ nav {
     .testimonials_title {
         padding-left: 80px;
     }
+    
     
     .testimonials_title h3{
         position: relative;

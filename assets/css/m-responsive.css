@@ -599,10 +599,10 @@
 
     /* Get Started Sections */
 
-    .get_stated_center {
+    /* .get_stated_center {
         padding-top: 30px;
         padding-bottom: 30px;
-    }
+    } */
 
     .get_stated_center .box_line {
         margin: 70px 0 !important;
@@ -642,9 +642,9 @@
         padding-left: 150px;
     }
 
-    .low_month a {
+    /* .low_month a {
         margin-left: 80px;
-    }
+    } */
 
     .low_month_para {
         padding: 0;
