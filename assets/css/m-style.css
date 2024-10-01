@@ -36,7 +36,8 @@ body p {
 .hero_section, .testimonials_hero, .about_hero, .blog_hero {margin-top: 100px;}
 
 
-/* .sec_heading {
+/*
+.sec_heading {
     text-transform: uppercase;
     text-align: center;
     color: var(--other-grey);
@@ -688,7 +689,7 @@ nav {
     height: 120px;
     border-radius: 44%;
     border: 3.2px solid white;
-    top: -14px;
+    top: 50%;
     left: 0;
     font-size: 60px;
     color: white;
@@ -697,6 +698,7 @@ nav {
     justify-content: center;
     align-items: center;
     font-family: var(--ibmplex-font);
+    transform: translate(-1px, -50%);
     background-image: -moz-linear-gradient(162deg, rgb(28,217,234) 0%, rgb(27,178,232) 15%, rgb(25,139,229) 100%);
     background-image: -webkit-linear-gradient(162deg, rgb(28,217,234) 0%, rgb(27,178,232) 15%, rgb(25,139,229) 100%);
     background-image: -ms-linear-gradient(162deg, rgb(28,217,234) 0%, rgb(27,178,232) 15%, rgb(25,139,229) 100%);
