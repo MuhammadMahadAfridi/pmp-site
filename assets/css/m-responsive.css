@@ -544,13 +544,21 @@
 /* =========  Hero_Sections Component - Start ============*/
     
     .about_hero .hero_content {
-        padding: 50px 10px;
+        padding: 50px 20px;
     }
 
-    .about_hero .hero_content p{
-        margin: 0;
+    .about_hero .hero_content {
+        margin: 80px 0;
     }
-
+    .hero_content .hero_title {
+        font-size: 30px;
+    }
+    .hero_content .hero_para {
+        font-size: 16px;
+    }
+    .about_hero .hero_content .hero_para_two {
+        font-size: 16px;
+    }
     .testimonials_hero {
         margin-top: 75px;
         padding: 0;
@@ -758,6 +766,9 @@
     /* =========== About Us Page =========== */
 
     /* Aboutus Page => Call Fowarding and Fax Saving */
+    .hero_content {
+        margin: 100px 0;
+    }
 
     .whatispmp_all .whatispmp_all_img {
         width: 400px;
