@@ -158,6 +158,16 @@
     }
 
 
+    /* Low Month */
+    .design_container .low_de_box_one {
+        top: -18px;
+    }
+    .design_container .low_de_box_two .low_de_box_two_para {
+        font-size: 18px;
+    }
+
+
+
 
 
  /* ====================== FAQS - Page ====================== */
@@ -393,6 +403,11 @@
         padding-left: 10px;
     }
 
+    /* ====================== FAQs - Page ====================== */
+
+    .still_header {
+        width: 90%;
+    }
 
 
         
@@ -408,18 +423,34 @@
 
     /* Hero Section */
 
-    .hero_section .hero_content {
-        padding-top: 40px;
-        padding-bottom: 40px;
+
+    .hero_section {
+        margin-top: 75px;
+        padding: 160px 0;
     }
-    .hero_section .hero_content h4 {
-        font-size: 18px;
+    .hero_section .custom_width {
+        width: 100%;
     }
-    .hero_section .hero_content p {
-        font-size: 12px;
+    .hero_content_slidebg {
+        text-align: center;
+        border-radius: 50px !important;
     }
-    .hero_section .hero_content .custom_btn {
-        font-size: 12px;
+    .hero_content_slidebg::before {
+        display: none;
+    }
+    .hero_section .hero_content{
+        padding: 40px 60px;
+    }
+    .hero_section .hero_content h3 {
+        font-size: 36px;
+    }
+    .hero_section .hero_content h5{
+        margin-top: 20px;
+        font-size: 16px;
+        color: #00e5ff;
+    }
+    .hero_section .hero_content a{
+        margin-top: 20px;
     }
     
 
@@ -440,7 +471,6 @@
     .box_line::before {
         content: url('../../assets/imgs/bg/get_or_bg_homepg.webp');
     }
-
 
     .get_started .get_started_one .custom_btn {
         width: 100%;
@@ -490,7 +520,7 @@
     }
 
 
-
+    
 
 
 
@@ -512,40 +542,7 @@
 @media (max-width: 575.98px) {
 
 /* =========  Hero_Sections Component - Start ============*/
-    .hero_section {
-        margin-top: 75px;
-        padding: 60px 0;
-    }
-    .hero_section .custom_width {
-        width: 100%;
-    }
-    .hero_content_slidebg {
-        text-align: center;
-        border-radius: 50px !important;
-    }
-    .hero_content_slidebg::before {
-        display: none;
-    }
-    .hero_section .hero_content{
-        padding: 0 20px;
-    }
-    .hero_section .hero_content h3 {
-        font-size: 36px;
-    }
-    .hero_section .hero_content h5{
-        margin-top: 20px;
-        font-size: 16px;
-        color: #00e5ff;
-    }
-    .hero_section .hero_content a{
-        margin-top: 20px;
-    }
-
-    /* .hero_content_slidebg::before {
-        background-blend-mode: overlay;
-        background-color: #216add63;
-    } */
-
+    
     .about_hero .hero_content {
         padding: 50px 10px;
     }
@@ -571,7 +568,7 @@
     .testimonials_hero .testimonials_hero_content {
         padding: 40px 20px;
     }
-    .testimonials_hero .testimonials_hero_content p{
+    .testimonials_hero .testimonials_hero_content p {
         margin: 0;
         width: 100%;
     }
@@ -641,38 +638,18 @@
         background: url(/assets/imgs/lowmonth_bg.webp) no-repeat left / cover;
     }
 
-    .low_month .boxstyling_main {
-        margin-left: -70px;
-    }
-
-    .low_month .low_month_section .boxstyling{
-        transform: scale(0.7) !important;
-    }
 
     .low_month .low_month_section .custom_btn {
-        font-size: 14px;
-        margin-top: 5px;
-        margin-left: 70px;
+        font-size: 16px;
     }
 
-    .low_month .low_month_section .low_month_para{
-        font-size: 18px;
+    .low_month .low_month_heading {
+        padding-bottom: 18px;
     }
+   
 
-    .low_month .low_month_section h4 {
-        font-size: 26px;
-        padding-left: 150px;
-    }
 
-    /* .low_month a {
-        margin-left: 80px;
-    } */
 
-    .low_month_para {
-        padding: 0;
-        padding-top: 20px;
-        margin-left: 65px;
-    }
 
 
 
@@ -778,9 +755,7 @@
 
 
 
-
-
-/* =========== About Us Page =========== */
+    /* =========== About Us Page =========== */
 
     /* Aboutus Page => Call Fowarding and Fax Saving */
 
@@ -788,6 +763,16 @@
         width: 400px;
     }
     
+    /* ====================== FAQs - Page ====================== */
+    .still_header .still_header_content .still_header_content_heading {
+        font-size: 30px;
+    }
+    .still_header .still_header_content .still_header_content_para {
+        font-size: 16px;
+    }
+
+
+
 
 }
 
@@ -800,7 +785,26 @@
 
 
 /* Other Resolutions */
+@media (max-width: 500px) {
 
+    /* Hero Senction */
+    .hero_section {
+        padding: 100px 0;
+    }
+    .hero_section .hero_content {
+        padding: 40px 30px;
+    }
+    .hero_section .hero_content .hero_title {
+        font-size: 24px;
+    }    
+
+    /* Low Month */
+    .low_month .low_month_wrapper {
+        width: 100%;
+    }
+
+
+}
 
 @media (max-width: 400px) {
 
@@ -808,35 +812,24 @@
 
     /* Law Month Section */
 
-    .low_month .boxstyling_main {
-        margin-left: -70px;
+    
+    .design_container .low_de_box_two {
+        padding-left: 110px;
+    }
+    .design_container .low_de_box_two .low_de_box_two_para {
+        font-size: 16px;
+    }
+    .design_container .low_de_box_one {
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        top: -10px;
     }
 
-    .low_month .low_month_section .boxstyling{
-        transform: scale(0.62) !important;
-    }
-
-    .low_month .custom_btn {
-        margin-left: 65px;
-        font-size: 12px !important;
-    }
-
-    .low_month .low_month_section h4 {
-        padding-left: 140px;
-    }
-
-    .low_month_para {
-        padding: 0;
-        font-size: 18px !important;
-        padding-top: 20px;
-    }
 
 
     /* FAQS */
-
-
     .faqs {
-        /* padding-bottom: 0px !important; */
         background: url('assets/imgs/faqs_bg4.webp');
         height: 930px !important;
         padding: 10px 0 50px 0;
@@ -895,14 +888,21 @@
 
 /* ====================== Home - Page ====================== */
 
-    .low_month .boxstyling_main {
-        margin-left: -90px;
+    /* Low Month */
+    .design_container .low_de_box_one {
+        width: 90px;
+        height: 90px;
+        font-size: 50px;
+        top: -10px;
     }
-    
 
-    .low_month_para {
-        margin-left: 45px;
-    }
+.design_container .low_de_box_two {
+    font-size: 26px;
+}
+
+.design_container .low_de_box_two .low_de_box_two_para {
+    font-size: 12px;
+}
 
     /* Testimonials */
 
