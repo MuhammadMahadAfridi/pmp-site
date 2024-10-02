@@ -33,7 +33,7 @@ body p {
     margin-bottom: 50px !important ;
 }
 
-.hero_section, .testimonials_hero, .about_hero, .blog_hero {margin-top: 100px;}
+.hero_section, .testimonials_hero, .about_hero, .blog_hero, .business_hero {margin-top: 100px;}
 
 
 /*
@@ -735,95 +735,6 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* 
-.boxstyling p {
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: var(--ibmplex-font);
-    color: white;
-}
-
-.boxstyling p span {
-    text-transform: lowercase;
-    font-weight: 400;
-    font-family: var(--opensans-font);
-}
-
-.boxstyling {
-    position: relative;
-    margin-top: 10px;
-    width: 450px;
-    height: 90px;  
-}
-
-.boxstyling::after {
-    content: '';
-    position: absolute;
-    border-radius: 48px;
-    width: 120px;
-    height: 120px;
-    border: 3.4px solid #f8f8fa;
-    top: -16px;
-    left: 12%;;
-    transform: translateX(-50%); 
-    background-image: -moz-linear-gradient(162deg, rgb(28,217,234) 0%, rgb(27,178,232) 15%, rgb(25,139,229) 100%);
-    background-image: -webkit-linear-gradient(162deg, rgb(28,217,234) 0%, rgb(27,178,232) 15%, rgb(25,139,229) 100%);
-    background-image: -ms-linear-gradient(162deg, rgb(28,217,234) 0%, rgb(27,178,232) 15%, rgb(25,139,229) 100%);
-}
-
-.boxstyling::before {
-    content: '';
-    position: absolute;
-    border-radius: 50px;
-    width: 480px;
-    height: 90px;
-    background-image: -moz-linear-gradient(10deg, rgb(28,217,234) 0%, rgb(39, 82, 98) 15%, rgb(25,139,229) 100%);
-    background-image: -webkit-linear-gradient(10deg, rgb(28,217,234) 0%, rgb(27,178,232) 15%, rgb(25,139,229) 100%);
-    background-image: -ms-linear-gradient(10deg, rgb(28,217,234) 0%, rgb(27,178,232) 15%, rgb(25,139,229) 100%);
-    top: 0;
-    left: 0;
-}
-
-.text-content {
-    position: relative;
-    z-index: 1; 
-    color: white; 
-    text-align: left;
-    line-height: 12px; 
-    height: 100%;
-    display: inline-block;
-    font-size: 24px;
-    left: 74px;
-    top: 26px;
-}
-
-.box_style_text {
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    color: white;
-    font-size: 60px;
-    font-weight: bold;
-    font-family: var(--ibmplex-font);
-    left: 16px;
-    top: -1px;
-} */
-
-
-
-
-
 /* Testimonials */
 
 .testimonials {
@@ -925,44 +836,6 @@ nav {
         left: -60px;
         top: -190px;
     }
-    
-
-
-/*
-      
-     .swiper-button-next{
-        background-image: url('../../assets/imgs/icon/testimonials_homepg_next_icon.webp') !important;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: center;
-        margin-right: -70px;
-        margin-top: 11px;
-    }
-    .swiper-button-prev{
-        background-image: url('../../assets/imgs/icon/testimonials_homepg_prev_icon.webp') !important;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: center;
-        margin-left: -70px;
-        margin-top: 11px;
-    }
-
-     
-
-    .swiper-button-next::after {
-        display: none;
-    }
-    .swiper-button-prev::after {
-        display: none;
-    }
-*/
-
-    /* .swiper-button-next,
-    .swiper-button-prev {
-        z-index: 999 !important; 
-    } 
-        
-*/
     
 
 
@@ -1434,6 +1307,7 @@ nav {
 
 
 /* Testimonials Style Boxes - Original */
+
 .testimonials_design_frame {
     position: relative;
 }
@@ -1795,7 +1669,7 @@ nav {
     font-weight: 700;
     font-family: var(--ibmplex-font);
 }
-.whatispmp_bg_orange_box orange_box_para {
+.whatispmp_bg_orange_box .orange_box_para {
     font-size: 24px;
     color: white;
     font-family: var(--opensans-font);
@@ -2440,6 +2314,37 @@ nav {
     font-weight: 700;
     font-family: var(--opensans-font);
 }
+
+
+
+
+/* ============ Started Section - Business Page ============ */
+
+.business_hero {
+    background: url('../../assets/imgs/bg/business_hero_bg_page.webp') no-repeat right / cover;
+}
+
+.business_hero_content .business_title {
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
