@@ -394,6 +394,7 @@
 
  /* ====================== Testimonials - Page ====================== */
 
+
     .testimonials_hero {
         margin-top: 0px;
         padding-top: 50px;
@@ -403,21 +404,32 @@
         padding-left: 10px;
     }
 
+
     /* ====================== FAQs - Page ====================== */
+
 
     .still_header {
         width: 90%;
     }
 
 
+    /* ====================== Business - Page ====================== */
+
         
+    .business_left_bg::after {
+        top: 108%;
+        right: 44%;
+    }
+
+
+
 }
 
 
 
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
 
  /* ====================== Home - Page ====================== */
 
