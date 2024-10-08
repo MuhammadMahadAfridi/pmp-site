@@ -154,15 +154,12 @@ nav {
 
 /* Main hero Section */
 
-main {
-    background-image: url('./assets/imgs/herobanner.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 
 
 .hero_section {
+    background-image: url('../../assets/imgs/bg/homepg_herobanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 100px 0 100px 0;
     margin-top: 100px;
 }
@@ -315,7 +312,7 @@ main {
 }
 .box_line::before {
     position: absolute;
-    content: url('./assets/imgs/get_started_bg.webp');
+    content: url('../../assets/imgs/bg/get_or_bg_homepg.webp');
     left: -170px;
     top: -169px;
 }
@@ -602,10 +599,9 @@ main {
 
 
 .low_month {
-    background: url('./assets/imgs/lowmonth_bg.webp') no-repeat center / cover;
+    background: url('../../assets/imgs/bg/lowmonth_homepg_bg.webp') no-repeat center / cover;
     padding: 110px 0 90px 0;
     background-color: #f8f8fa;
-    /* padding: 170px 0 140px 0; */
 }
 
 .low_month h4 {
@@ -722,7 +718,7 @@ main {
 /* Testimonials */
 
 .testimonials {
-    background: url('./assets/imgs/testimonials_bg.webp') no-repeat center / cover;
+    background: url('../../assets/imgs/bg/testimonials_homepg_bg.webp') no-repeat center / cover;
     padding: 40px 0 40px 0;
 }
 
@@ -800,7 +796,7 @@ main {
 
       
     .swiper-button-next{
-        background-image: url('./assets/imgs/next_icon.webp') !important;
+        background-image: url('../../assets/imgs/icon/testimonials_homepg_next_icon.webp') !important;
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center;
@@ -808,7 +804,7 @@ main {
         margin-top: 11px;
     }
     .swiper-button-prev{
-        background-image: url('./assets/imgs/prev_icon.webp') !important;
+        background-image: url('../../assets/imgs/icon/testimonials_homepg_prev_icon.webp') !important;
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center;
@@ -902,7 +898,6 @@ main {
     padding: 14px 60px;
     gap: 15px;
     box-shadow: 0px 6px 16px 0px rgba(10, 9, 10, 0.34);
-    /* margin-left: 15px; */
 }
 
 .services_bottom .services_bottom_content_two .custom_btn svg {
@@ -919,7 +914,7 @@ main {
 /* How Section */
 
 .how_section {
-    background: url('./assets/imgs/how_bg.webp') no-repeat right / cover;
+    background: url('../../assets/imgs/bg/how_homepg_bg.webp') no-repeat right / cover;
     padding: 70px 0 70px 0;
 }
 
@@ -996,7 +991,7 @@ main {
 /* FAQS Sections */
 
 .faqs {
-    background: url('./assets/imgs/faqs_bg2.webp');
+    background: url('../../assets/imgs/bg/faqs_homepg_bg.webp');
     background-repeat: no-repeat;
     position: relative;
     background-color: #f2f4f5;
@@ -1149,7 +1144,6 @@ main {
 }
 
 .custom_faq .accordion-button {
-    /* padding: 30px 0; */
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -1257,16 +1251,14 @@ main {
 }
 
 .testimonials_hero .testimonials_hero_content_bg {
-    background: url('./assets/imgs/testimonials_page_bg1.webp') no-repeat right / cover;
+    background: url('../../assets/imgs/bg/testimonials_page_bg.webp') no-repeat right / cover;
     width: 100%;
     height: 100%;
 }
 
-
 .testimonials_hero_content {
     padding: 90px 0 80px 0;
 }
-
 
 .testimonials_hero .testimonials_hero_content h4 {
     width: 103%;
@@ -1305,14 +1297,7 @@ main {
 }
 
 
-
-
-
-
 /* Testimonials Style Boxes - Original */
-
-
-
 .testimonials_design_frame {
     position: relative;
 }
@@ -1353,6 +1338,69 @@ main {
     width: 100px;
     height: 100px;
 }
+
+
+.testimonials_design_profile {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid transparent;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    box-shadow: 0px 3px 15px 0px rgba(165, 165, 165, 0.75);
+    background-image: linear-gradient(#fef8f2, #fef8f2), linear-gradient(0deg, #13c1f4, #f05f0c);
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+
+.testimonials_design_profile img{
+    width: 100px;
+    height: auto;
+    animation: spin 2000ms infinite linear;
+    animation-direction: reverse;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+    }
+  }
+  
+  @-webkit-keyframes spin {
+    from {
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+    }
+  }
 
 
 
@@ -1406,17 +1454,10 @@ main {
 
 
 .pagination .page-link span img {
-    transform: rotate(0deg);
-    height: 10px;
+    height: 12px;
     margin-top: -5px;
 }
 
-.pagination .page-link .previous_pagination {
-    transform: rotate(180deg);
-    height: 10px;
-    margin-top: -5px;
-    filter: brightness(0) saturate(100%) invert(0%) sepia(5%) saturate(7500%) hue-rotate(228deg) brightness(106%) contrast(106%);
-}
 
 
 .testimonials_customer_section .row .col-4:nth-child(odd) .testimonials_design_box .testimonials_design_body{
@@ -1425,49 +1466,6 @@ main {
 .testimonials_customer_section .row .col-4:nth-child(even)  .testimonials_design_box .testimonials_design_body {
     background-image: linear-gradient(#eff9fd, #eff9fd), linear-gradient(0deg, #13c1f4, #f05f0c);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1494,14 +1492,14 @@ main {
 
 
 .ready_left_bg {
-    background-image: url(/assets/imgs/phone-call.svg);
+    background-image: url(../../assets/imgs/icon/testimonials_phone_icon.svg);
     background-repeat: no-repeat;
     background-size: 240px 240px;
     background-position: top right;
 }
 
 .ready_right_bg {
-    background-image: url(/assets/imgs/services_icon.svg);
+    background-image: url(../../assets/imgs/icon/testimonials_services_icon.svg);
     background-repeat: no-repeat;
     background-size: 256px 256px;
     background-position: top right;
@@ -1604,7 +1602,7 @@ main {
 /* Footer Start */
 
 footer .footer_bg {
-    background: url('./assets/imgs/footer_bg.webp') no-repeat center / cover;
+    background: url('../../assets/imgs/bg/footer_bg.webp') no-repeat center / cover;
     padding: 80px 0 55px 0;
     overflow: hidden;
 }
@@ -1622,7 +1620,7 @@ footer .footer_bg {
 
 footer .footer_logo h4::before {
     position: absolute;
-    content: url('./assets/imgs/footer_bg_de.webp');
+    content: url('../../assets/imgs/icon/footer_bg_icon_circle.webp');
     left: -419px;
     top: -421px;
     transform: scale(0.8) translate(50%, 50%);
