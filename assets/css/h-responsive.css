@@ -371,6 +371,10 @@
   width: 90%;
  }
 
+ .form_btn_wrapper {
+  margin-left: 0px;
+ }
+
  .form_left_content {
   padding-left: 40px;
  }
@@ -564,8 +568,30 @@
 
  /* contact banner section css start from here */
 
+
+ /* new start */
+
+ .about_main_wrapper {
+  height: 220px;
+  display: flex;
+  padding: 40px 0px;
+  align-items: flex-end;
+ }
+
+ .contact_banner_title {
+  font-size: 32px;
+  text-shadow: 0px 0px 18px #00000073;
+ }
+
+ .form_top_title {
+  font-size: 32px;
+ }
+
+ /* new end */
+
  .contact_banner_content {
   text-align: center;
+
  }
 
  /* form section css */
@@ -587,9 +613,22 @@
 
  /* banner section css */
 
+ /* new  start*/
+
  .contact_banner_title {
-  font-size: 42px;
+  font-size: 30px;
  }
+
+ .form_top_title {
+  font-size: 36px;
+  ;
+ }
+
+ .about_main_wrapper {
+  height: 180px;
+ }
+
+ /* new end  */
 
  /* form section css */
 
@@ -660,18 +699,6 @@
  /* contact page css start from here */
 
  /* helpline section css */
-
-
- .contact_banner_title {
-  font-size: 36px;
- }
-
- .form_top_title {
-  font-size: 36px;
-  color: #1b75bc;
-  line-height: 1.283;
- }
-
 
  /* contact page css star from here */
 }
