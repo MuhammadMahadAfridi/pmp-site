@@ -1484,6 +1484,7 @@ nav {
 
 
 .ready_get .ready_left_column {
+    z-index: 1;
     position: relative;
     background-color: var(--secondary-color);
 }
@@ -2551,38 +2552,10 @@ nav {
 }
 
 
-
-/* 
-.tailor_grid {
-    padding: 30px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.tailor_grid .tailor_package {
-    display: flex;
-    gap: 10px;
-    flex-direction: row;
-    align-items: center;
-}
-
-.tailor_grid .tailor_package .t_package_heading{
-    margin: 0;
-    font-size: 12px;
-    font-weight: 800;
-    color: #222222;
-    text-transform: uppercase;
-    font-family: var(--opensans-font);
-}
-
- */
-
-
  .tailor_grid {
     padding: 30px 0;
     display: grid;
     row-gap: 20px;
-    /* grid-auto-flow: column; */
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
 }
@@ -2615,13 +2588,11 @@ nav {
 
 
 
-/* .business_get {
-    position: relative;
-} */
-
 .business_get .business_left_bg {
     position: relative;
+    z-index: 1;
 }
+
 .business_get .business_left_bg::before {
     position: absolute;
     content: url('../../assets/imgs/icon/flexible_pricing.webp');
@@ -2675,7 +2646,6 @@ nav {
 .business_left_bg::after {
     content: 'OR';
     background-color: white;
-    /* line-height: 0; */
     font-size: 27px;
     padding: 22px;
     border-radius: 50%;
@@ -2700,57 +2670,190 @@ nav {
 
 
 
+/* ============ Started Section - Wifi Calling ============ */
 
+.wifi_calling_main_wrapper {
+    background: url('../../assets/imgs/bg/wificalling_pg_banner.webp') no-repeat center / cover;
+    padding: 80px 0;
+}
 
-/* .business_get .ready_right_column .custom_btn svg{
-    width: 30px;
-} */
-
-
-/* .business_center_or_heading {
-    top: 166px;
-    left: 712px;
-    z-index: 99;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    color: var(--secondary-color);
-    border-radius: 50px;
-    font-weight: 700;
-    padding: 40px;
+.wifi_calling_main_wrapper .wifi_calling_para {
     font-size: 26px;
+    color: white;
     font-family: var(--opensans-font);
-    border: 4px solid var(--secondary-color);
-} */
+}
+
+
+/* Wifi Calling 2nd Section */
+.call_wifi_section {
+    background-color: #eff3f7;
+}
+
+.call_wifi_wrapper {
+    padding: 80px 60px 100px 60px;
+}
+
+.call_wifi_content {
+    z-index: 1;
+    position: relative;
+    border-top-right-radius: 50vh;
+    border-bottom-right-radius: 50vh;
+    background-color: var(--secondary-color);
+}
+.call_wifi_content::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 1000px;
+    background-color: var(--secondary-color);
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    z-index: -1;
+}
 
 
 
+.package_box_wrapper {
+    -webkit-filter: drop-shadow(2px 2px 10px #dadada);
+    filter: drop-shadow(5px 4px 20px #dadada);
+
+}
+
+.call_forward_handphone_img .wifi_calling_icon {
+    width: auto;
+    margin-left: 0;
+}
 
 
 
+/* Wifi Calling Page - Feature Plans */
+
+.wifi_features {
+    background-color: #efefef;
+    padding: 70px 0;
+}
+
+.wifi_feature_box {
+    padding: 0 50px;
+}
+
+.wifi_features_heading{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #222222;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--opensans-font);
+}
+.business_services_heading_span{
+    font-size: 24px;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.wifi_feature_icon {
+    -webkit-filter: drop-shadow(0px 15px 30px #ff44002c);
+    filter: drop-shadow(0px 20px 30px #ff44002c);
+    
+}
+
+.wifi_feature_box_title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-family: var(--opensans-font);
+}
+
+.wifi_feature_box_para {
+    font-size: 16px;
+    color: #555555;
+    font-family: var(--opensans-font);
+}
 
 
 
+/* Wifi Callling Page - FAQs */
+
+.faqs_wrapper {
+    background-color: #ecc241;
+    position: relative;
+    /* background-image: url('../../assets/imgs/bg/wificalling_pg_faqs_bg.webp');
+    background-repeat: no-repeat; */
+}
+.faqs_wrapper::before {
+    position: absolute;
+    content: url('../../assets/imgs/bg/yellow-question-mark.png');
+    /* background-repeat: no-repeat; */
+    top: 90px;
+    right: 100px;
+}
+
+.accordion-button.collapsed {
+    background: none !important;
+}
+.faqs_wrapper .accordion .accordion-item {
+    background-blend-mode: overlay !important;
+    background-color: #ffffffc6 !important;
+}
 
 
+.faqs_left_content {
+    width: 58%;
+}
+
+.call_forward_content_inner_cont {
+    padding: 140px 100px 140px 0px;
+}
+
+.package_body .package_desc_wrapper{
+    padding: 14px 0px 0px 0px;
+}
+
+.package_body_title {
+    padding: 12px 0px 12px 0px;
+}
+
+.package_body {
+    padding: 0px 30px 55px 30px;
+}
+
+.package_body .package_desc {
+    line-height: 0.9;
+    padding: 0;
+}
+
+.package_btn_wrapper{
+    text-decoration: none !important;
+}
 
 
+.faqs_wrapper .acordian_desc {
+    border-top: 1px solid #e8780b;
+    padding-top: 25px;
+}
+
+.service_box {
+    padding: 30px 14px 30px 14px;
+}
+
+.service_box_para {
+    padding: 5px 0;
+    line-height: 1.2;
+}
 
 
+.service_wrapper .package_btn_wrapper {
+    margin-top: 30px;
+    font-size: 14px;
+}
 
-
-
-
-
-
-
-
+.services_box_icon {
+    -webkit-filter: drop-shadow(0px 15px 40px #ff44002c);
+    filter: drop-shadow(5px 5px 5px #ff44002c);
+}
 
 
 
