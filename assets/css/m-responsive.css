@@ -421,6 +421,17 @@
         right: 44%;
     }
 
+ /* ====================== Wifi Calling - Page ====================== */
+
+
+    .call_wifi_content {
+        border-radius: 0;
+        padding-right: 60px;
+        padding-left: 20px;
+    }
+
+
+
 
 
 }
@@ -532,7 +543,30 @@
     }
 
 
+ /* ====================== Wifi Calling - Page ====================== */
+
+    .wifi_calling_para {
+        font-size: 18px !important;
+    }
+
+
+    .call_wifi_content {
+        text-align: center;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
     
+    .call_wifi_content .call_forward_left_title span {
+        display: inline-block !important;
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -541,6 +575,7 @@
     footer .footer_last_sec {
         padding-left: 60px;
     }
+
 
 
 }

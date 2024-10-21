@@ -2690,7 +2690,7 @@ nav {
 }
 
 .call_wifi_wrapper {
-    padding: 80px 60px 100px 60px;
+    padding: 80px 0 100px 0;
 }
 
 .call_wifi_content {
@@ -2780,13 +2780,10 @@ nav {
 .faqs_wrapper {
     background-color: #ecc241;
     position: relative;
-    /* background-image: url('../../assets/imgs/bg/wificalling_pg_faqs_bg.webp');
-    background-repeat: no-repeat; */
 }
 .faqs_wrapper::before {
     position: absolute;
     content: url('../../assets/imgs/bg/yellow-question-mark.png');
-    /* background-repeat: no-repeat; */
     top: 90px;
     right: 100px;
 }
@@ -2854,6 +2851,51 @@ nav {
     -webkit-filter: drop-shadow(0px 15px 40px #ff44002c);
     filter: drop-shadow(5px 5px 5px #ff44002c);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
