@@ -85,9 +85,48 @@
     }    
 
     
+/* ====================== Affiliate - Page ====================== */
+
+    /*  Why Join Our Affiliate Program  */
     
+    .why_join_affiliate .affiliate_left_img {
+        display: none;
+    }
+    .why_join_affiliate .affiliate_left_responsive {
+        display: flex;
+        height: 340px;
+        -webkit-filter: drop-shadow(0px 15px 40px #0000002c);
+        filter: drop-shadow(5px 5px 35px #0000002c);
+    }
+    .why_join_affiliate_check {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
+    .why_join_affiliate .choose_business_boxes_container {
+        padding-top: 20px;
+        width: 100%;
+        max-width: 510px;
+    }
 
+    .why_join_affiliate .choose_business_boxes {
+        
+        padding-left: 12px;
+    }
+
+    .join_affiliate_content .join_affiliate_content_title {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .why_join_affiliate .choose_business_de_heading {
+        font-size: 16px !important;
+    }
+
+    .why_join_affiliate .choose_business_check_icon {
+        height: 30px;
+    }
 
 
 
@@ -195,17 +234,30 @@
 }
 
 
+ /* ====================== Affiliate - Page ====================== */
 
+    .pmp_affiliate_work .pmp_affiliate_work_container {
+        gap: 40px;
+        margin-left: -10px !important;
+    }
 
+    .pmp_affiliate_work .affilliate_content_work {
+        width: 100%;
+        max-width: 340px;
+        padding-top: 50px;
+    }
 
+    .pmp_affiliate_work .affiliate_work_arrow {
+        top: 100%;
+        right: 38%;
+        transform: translate(0%, 0%) rotate(90deg);
+    }
 
-
-
-
-
-
-
-
+    .pmp_affiliate_work .affiliate_work_cont_on  {
+        top: -14%;
+        left: 40%;
+        transform: translate(0%, 0%);
+    } 
 
 
 
@@ -431,6 +483,21 @@
     }
 
 
+ /* ====================== Phone Parking - Page ====================== */
+
+    .pp_addons .pp_addons_title {
+        text-align: center;
+    }
+
+    .pp_addons .pp_addons_content_li {
+        padding: 0 60px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .package_btn_wrapper {
+       margin: 0 auto  !important;
+    }
 
 
 
@@ -561,9 +628,56 @@
     }
 
 
+ /* ====================== Phone Parking - Page ====================== */
+
+    .phone_parking_para {
+        font-size: 16px;
+    }
 
 
+/* ====================== Affiliate - Page ====================== */
 
+    /*  Why Join Our Affiliate Program  */
+
+    .affiliate_left_responsive {
+        display: none !important;
+    }
+
+    .join_affiliate_content {
+        text-align: center;
+    }
+    
+    .join_affiliate_content .join_affiliate_content_title {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .why_join_affiliate_check {
+        justify-content: center;
+    }
+    
+    .why_join_affiliate .choose_business_boxes {
+        width: 100%;
+    }
+    
+    .join_affiliate_content {
+        text-align: center;
+    }
+    
+    .join_affiliate_content .join_affiliate_content_title {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .why_join_affiliate_check {
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    
+    .why_join_affiliate .choose_business_boxes {
+        width: 100%;
+    }
+    
 
 
 
@@ -861,6 +975,37 @@
         width: 100%;
     }
 
+/* ====================== Affiliate - Page ====================== */
+
+
+    .join_affiliate_content .join_affiliate_content_title {
+        font-size: 36px;
+    }
+    
+    .join_affiliate_content .join_affiliate_content_para {
+        font-size: 14px;
+    }
+    
+    .why_join_affiliate .choose_business_box_content {
+        padding: 0px 0 0px 24px;
+    }
+    
+    .choose_business_box_content {
+        gap: 10px;
+    }
+    
+    .why_join_affiliate .choose_business_de_heading {
+        font-size: 12px !important;
+    }
+    
+    .why_join_affiliate .choose_business_check_icon {
+        height: 26px;
+    }
+
+    .why_join_affiliate .joining_affiliate_icon {
+        height: 26px !important;
+    }
+
 
 }
 
@@ -968,6 +1113,15 @@
         width: auto;
         font-size: 30px;
     }
+
+
+
+    /* ====================== Affiliate - Page ====================== */
+
+    .choose_business_boxes {
+        justify-content: flex-start !important;
+    }
+
 
 
 }
