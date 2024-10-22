@@ -636,6 +636,22 @@
 
 
 /* ====================== Affiliate - Page ====================== */
+    /* Hero Section of the Affiliate Page */
+
+    .affiliate_hero_title {
+        max-width: none !important;
+        font-size: 42px !important;
+    }
+
+    .affiliate_hero_section .affiliate_hero_para {
+        font-size: 20px;
+    }
+
+    .affiliate_hero_section .affiliate_hero_dec {
+        font-size: 20px;
+    }
+
+
 
     /*  Why Join Our Affiliate Program  */
 
