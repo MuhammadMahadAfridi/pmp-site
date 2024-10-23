@@ -1509,12 +1509,13 @@ nav {
     background-position: top right;
 }
 
-.ready_right_bg {
-    background-image: url(../../assets/imgs/icon/testimonials_services_icon1.webp);
+.about_get_r .ready_right_bg {
+    background-image: url(../../assets/imgs/icon/about_us_get_r.webp);
     background-repeat: no-repeat;
-    background-size: 256px 256px;
+    background-size: 220px 220px;
     background-position: top right;
 }
+
 
 
 .ready_get .ready_right_column {
@@ -2015,13 +2016,6 @@ nav {
     background-color: var(--secondary-color);
 }
 
-/* .still_boxes .still_contact .still_contact_text{
-    margin: 0;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 21px;
-    color: white;
-} */
 
 .still_boxes:hover .still_contact {
     background-color: var(--primary-color);
@@ -2031,10 +2025,6 @@ nav {
 .still_contact svg {
     fill: white;
 }
-
-
-
-
 
 
     .still_boxes:hover .outer-circle, 
@@ -2096,6 +2086,12 @@ nav {
   }
   
 
+  .faqs_get_r .ready_right_bg {
+    background-image: url(../../assets/imgs/icon/testimonials_services_icon1.webp);
+    background-repeat: no-repeat;
+    background-size: 240px 240px;
+    background-position: top right;
+}
 
 
 
