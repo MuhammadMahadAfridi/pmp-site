@@ -3,6 +3,10 @@
  padding: 0px;
 }
 
+body {
+ overflow-x: hidden;
+}
+
 .fs-18 {
  font-size: 18px;
 }
@@ -34,22 +38,41 @@
  background-image: url('../imgs/bg/forward-bg.webp');
  background-repeat: no-repeat;
  background-size: cover;
- background-position: 50% 50%;
 }
 
 .forward_ban_title {
  font-size: 36px;
- max-width: 550px;
- width: 100%;
  margin-bottom: 20px;
 }
 
-.forward_ban_desc {
- font-size: 16px;
- width: 100%;
- max-width: 215px;
- line-height: 1.2;
- color: #00355e;
+.forward_banner_desc {
+ font-size: 18px;
+}
+
+.forward_banner_desc span::after {
+ content: '';
+ position: absolute;
+ right: 0px;
+ top: 0px;
+ bottom: 0px;
+ width: 0px;
+ height: 0px;
+ border-style: solid;
+ border-width: 16px 18px 16px 0px;
+ border-color: transparent #125c9f transparent transparent;
+ transform: rotate(0deg);
+}
+
+.forward_banner_desc span {
+ background-color: #fff;
+ padding: 2px 25px 2px 5px;
+ font-size: 20px;
+ position: relative;
+ border-radius: 5px;
+}
+
+.custom_margin_banner_desc2 {
+ margin-top: -5px;
 }
 
 .view_btn {
@@ -146,6 +169,8 @@
  align-items: center;
  justify-content: center;
  flex-shrink: 0;
+ background-color: #fff;
+ box-shadow: 0px 0px 5px #fff;
 }
 
 /* new end  */
@@ -162,7 +187,7 @@
 
 .package_wrapper {
  padding: 70px 0px 50px 0px;
- background-image: url('../imgs/bg/plan-bg.webp');
+ background-image: url('../imgs/bg/package-banner.webp');
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
@@ -510,10 +535,9 @@
 /* service section css start from here */
 .service_wrapper {
  background-image: url('../imgs/bg/service-bg.webp');
- padding: 70px 0px;
+ padding: 30px 0px;
  background-size: cover;
  background-repeat: no-repeat;
-
 }
 
 .service_title {
@@ -527,10 +551,37 @@
  background-color: rgb(255, 255, 255);
  box-shadow: 0px 23px 43px 0px rgba(10, 9, 10, 0.1);
  border-style: solid;
- padding: 30px 14px 40px 14px;
+ padding: 30px 15px 15px 15px;
  height: 100%;
 }
 
+.serv_box_desc {
+ line-height: 1.286;
+ font-size: 14px;
+ height: 90px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 5;
+ -webkit-box-orient: vertical;
+}
+
+.service_box_btn {
+ padding: 6px 30px;
+ background-color: #ff4500;
+ border: 2px solid #ff4500;
+ border-radius: 25px;
+ width: fit-content;
+ margin: 0 auto;
+ font-size: 14px;
+ box-shadow: 0px 15px 35px 0px rgba(156, 48, 10, 0.32);
+}
+
+.service_box_btn:hover {
+ color: #ff4500 !important;
+ background-color: #fff;
+ transition: 0.6s ease-in-out;
+}
 
 
 /* Contact PAGE CSS start from here */
@@ -714,3 +765,53 @@ a.helpline_btn img {
 }
 
 /* new end */
+
+/* Voice mail page css start from here */
+
+
+/* Voicemail banner CSS */
+
+.voicemail_banner {
+ background-image: url('../imgs/bg/voice-mail-banner.webp');
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 65px 0px 85px 0px;
+}
+
+/* Voice mail features section CSS */
+
+.vmail_phone_img img {
+ height: 455px;
+ width: 330px;
+}
+
+.vmail_content_inner_cont {
+ padding: 100px 100px 100px 0px;
+ margin-left: -50px;
+}
+
+
+/* Voice mail Package section CSS */
+
+.vmail_package_icon {
+ right: 25px;
+ top: 44px;
+ z-index: -1;
+}
+
+.vmail_plan_btn {
+ border: 2px solid #ff4500;
+ padding: 15px 60px;
+ background-color: #ff4500;
+ box-shadow: 0px 16px 32px 0px rgba(255, 69, 0, 0.38);
+ border-radius: 30px;
+ width: fit-content;
+ margin: 0 auto;
+ color: #fff;
+}
+
+.vmail_plan_btn:hover {
+ color: #ff4500 !important;
+ background-color: white;
+ transition: 0.6s ease-in-out;
+}
