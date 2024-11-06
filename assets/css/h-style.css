@@ -793,12 +793,6 @@ a.helpline_btn img {
 
 /* Voice mail Package section CSS */
 
-.vmail_package_icon {
- right: 25px;
- top: 44px;
- z-index: -1;
-}
-
 .vmail_plan_btn {
  border: 2px solid #ff4500;
  padding: 15px 60px;

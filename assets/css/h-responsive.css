@@ -2,6 +2,14 @@
  .call_forward_right_side {
   padding-right: 0px;
  }
+
+ /* voice mail page css */
+
+ /* voice mail banner section css */
+
+ /* .forward_banner_desc span::after {
+  border-color: transparent #135a9e transparent transparent;
+ } */
 }
 
 @media(max-width:1600px) {
@@ -13,8 +21,6 @@
  }
 
  /* contact page css */
-
-
 
 }
 
@@ -265,16 +271,6 @@
  .vmail_plan_btn {
   padding: 12px 50px;
  }
-
- .vmail_package_icon {
-  top: 40px;
-}
-
-.vmail_package_icon img {
- width: 125px;
- height: 125px;
-}
-
 }
 
 @media(max-width:991px) {
@@ -472,7 +468,7 @@
 
  /* vcoice mail package section css  */
 
- .vmail_package_icon img {
+ /* .vmail_package_icon img {
   margin-bottom: 20px;
   width: 110px;
   height: 110px;
@@ -482,10 +478,7 @@
   position: unset !important;
   width: 100%;
   text-align: center;
- }
-
-
-
+ } */
 }
 
 @media(max-width:768px) {
